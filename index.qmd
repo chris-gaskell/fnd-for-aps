@@ -20,7 +20,7 @@ format:
     incremental: false
     theme: [simple, custom.scss]
     title: "Functional Neurological<br> Disorders"
-    subtitle: "Teaching for Combined NHS Foundation Trust"
+    subtitle: "Teaching for Assistant Psychologists"
     preview-links: false
     preload-iframes: false
     chalkboard: true
