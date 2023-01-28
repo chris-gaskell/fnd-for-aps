@@ -9,9 +9,9 @@ format:
         <meta name="github-repo" content="chris-gaskell/fnd-for-combined"/>
         <meta name="twitter:title" content="An Introduction to Working with Functional Neurological Disorders"/>
         <meta name="twitter:description" content="An Introduction to Working with Functional Neurological Disorders"/>
-        <meta name="twitter:url" content="https://fnd-for-combined.netlify.app"/>
+        <meta name="twitter:url" content="https://fnd-for-aps.netlify.app"/>
         <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-combined/blob/master/twitter-pic.jpg?raw=true"/>
-        <meta name="twitter:image:alt" content="Title slide of An Introduction to Working with Functional Neurological Disorders presented to Medics and Psychologists for North Staffs Combined NHS Trust 2022."/>
+        <meta name="twitter:image:alt" content="Title slide of An Introduction to Working with Functional Neurological Disorders presented to Midlands Assistant Psycholgoists Group Meeting, 2023."/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="@chrisgaskell92/>
         <meta name="twitter:site" content="@chrisgaskell92"/>
@@ -20,13 +20,13 @@ format:
     incremental: false
     theme: [simple, custom.scss]
     title: "Functional Neurological<br> Disorders"
-    subtitle: "Teaching for Assistant Psychologists"
+    subtitle: "Teaching for Aspiring Psychologists"
     preview-links: false
     preload-iframes: false
     chalkboard: true
-    author: "Dr. Abi Methley & Dr. Chris Gaskell"
+    author: "Dr. Chris Gaskell"
     institute: "Neuropsychology <br> North Staffs Combined Healthcare"
-    footer: "FND for North Staffs Combined Healthcare"
+    footer: "FND for Midlands Aspriring Psychologists"
     transition: slide
     background-transition: fade
     transition-speed: slow
@@ -41,7 +41,7 @@ format:
 *for:*
 :::
 
-**North Staffordshire Combined Healthcare NHS Trust**
+**Midlands Aspiring Psychologists Group**
 
 ::: {style="text-align: center"}
 [https://fnd-for-combined.netlify.app](https://fnd-for-combined.netlify.app){.uri style="text-align: center"}
@@ -51,23 +51,7 @@ format:
 
 ------------------------------------------------------------------------
 
-::: columns
-::: {.column width="50%" style="text-align: center"}
-![](https://pbs.twimg.com/profile_images/1402004251933560839/GMvHx9Uf_400x400.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" width="240"}
-
-### Dr. Abi Methley
-
-::: {style="font-size: 24px"}
-Senior Clinical Psychologist
-
-Neuropsychology
-
-North Staffordshire Combined Healthcare NHS Trust
-:::
-:::
-
-::: {.column width="50%" style="text-align: center"}
-![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" width="240"}
+![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" fig-align="center" width="240"}
 
 ### Dr. Chris Gaskell
 
@@ -77,8 +61,6 @@ Senior Clinical Psychologist
 Neuropsychology
 
 North Staffordshire Combined Healthcare NHS Trust
-:::
-:::
 :::
 
 ------------------------------------------------------------------------

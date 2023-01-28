@@ -1,6 +1,4 @@
 - source: index.qmd
   netlify:
-    - id: 9e1ab63c-1de8-4418-bb62-a073d734d1ca
-      url: 'https://fnd-for-aps.netlify.app'
     - id: ddeeafc7-b7a4-45ee-814b-c0456950fbb1
       url: 'https://fnd-for-aps.netlify.app'
