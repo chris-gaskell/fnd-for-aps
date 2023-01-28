@@ -1,0 +1,2394 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/tabby.min.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/quarto-contrib/designmode-init-1.0.0/designmode.js"></script>
+<script src="index_files/libs/quarto-contrib/lord-icon-bundle-3.4.2/bundle.js"></script><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.1.251">
+
+  <meta name="author" content="Dr.&nbsp;Abi Methley &amp; Dr.&nbsp;Chris Gaskell">
+  <title>Functional Neurological  Disorders</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-captioned.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-captioned) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-captioned.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-captioned .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-captioned .callout-caption  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-captioned.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-captioned.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-caption {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-caption {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-caption {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-captioned .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-captioned .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-captioned) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-caption {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-caption {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-caption {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-caption {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-caption {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <meta name="github-repo" content="chris-gaskell/fnd-for-combined">
+  <meta name="twitter:title" content="An Introduction to Working with Functional Neurological Disorders">
+  <meta name="twitter:description" content="An Introduction to Working with Functional Neurological Disorders">
+  <meta name="twitter:url" content="https://fnd-for-combined.netlify.app">
+  <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-combined/blob/master/twitter-pic.jpg?raw=true">
+  <meta name="twitter:image:alt" content="Title slide of An Introduction to Working with Functional Neurological Disorders presented to Medics and Psychologists for North Staffs Combined NHS Trust 2022.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@chrisgaskell92/>
+  <meta name=" twitter:site"="">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="center">
+  <h1 class="title">Functional Neurological<br> Disorders</h1>
+  <p class="subtitle">Teaching for Combined NHS Foundation Trust</p>
+  <p class="author">Dr.&nbsp;Abi Methley &amp; Dr.&nbsp;Chris Gaskell</p>
+  <p class="institute">Neuropsychology <br> North Staffs Combined Healthcare</p>
+</section>
+
+<section id="an-introduction-to-working-with-functional-neurological-disorders" class="slide level2" style="font-size: 35px; text-align: center;">
+<h2>An Introduction to Working with Functional Neurological Disorders</h2>
+<div style="text-align: center">
+<p><em>for:</em></p>
+</div>
+<p><strong>North Staffordshire Combined Healthcare NHS Trust</strong></p>
+<div style="text-align: center">
+<p><a href="https://fnd-for-combined.netlify.app" class="uri" style="text-align: center">https://fnd-for-combined.netlify.app</a></p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://images.unsplash.com/photo-1607688387751-c1e95ae09a42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGJyYWlufGVufDB8fDB8fA%253D%253D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" width="300" height="300"></p>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="text-align: center">
+<p><img data-src="https://pbs.twimg.com/profile_images/1402004251933560839/GMvHx9Uf_400x400.jpg" style="border-radius: 50%; box-shadow: 0 0 30px black;" width="240"></p>
+<h3 id="dr.-abi-methley">Dr.&nbsp;Abi Methley</h3>
+<div style="font-size: 24px">
+<p>Senior Clinical Psychologist</p>
+<p>Neuropsychology</p>
+<p>North Staffordshire Combined Healthcare NHS Trust</p>
+</div>
+</div><div class="column" style="text-align: center">
+<p><img data-src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" style="border-radius: 50%; box-shadow: 0 0 30px black;" width="240"></p>
+<h3 id="dr.-chris-gaskell">Dr.&nbsp;Chris Gaskell</h3>
+<div style="font-size: 24px">
+<p>Senior Clinical Psychologist</p>
+<p>Neuropsychology</p>
+<p>North Staffordshire Combined Healthcare NHS Trust</p>
+</div>
+</div>
+</div>
+</section>
+<section id="disclaimers" class="slide level2">
+<h2>Disclaimers</h2>
+<ul>
+<li><p>Emotionally pertinent areas <span class="emoji" data-emoji="frowning">😦</span></p></li>
+<li><p>Potentially distressing videos <span class="emoji" data-emoji="video_camera">📹</span></p></li>
+<li><p>Not about emergency treatment response</p></li>
+<li><p>We are learning too <span class="emoji" data-emoji="student">🧑‍🎓</span></p></li>
+</ul>
+</section>
+<section id="contents" class="slide level2" data-background-color="#57342d">
+<h2>Contents</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Background Information</p></li>
+<li><p>Identification and Diagnosis</p></li>
+<li><p>Explanatory Models</p></li>
+<li><p>Treatment Approaches</p></li>
+<li><p>Resources</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/make-plan.jpg"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="what-is-fnd" class="title-slide slide level1 center" data-background-color="#57342d" style="text-align: center; padding: 200px 0;">
+<h1>What is FND?</h1>
+
+</section>
+
+<section class="slide level2">
+
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Dy3XLo7dVQI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+
+<aside><div>
+<p>Video by Massachusetts General Hospital</p>
+</div></aside></section>
+<section id="terminology" class="slide level2">
+<h2>Terminology?</h2>
+<ul>
+<li><p><strong><em>FND</em></strong> = Functional Neurological Disorder.</p>
+<ul>
+<li>Umbrella Diagnosis <span class="emoji" data-emoji="umbrella">☔</span>.</li>
+</ul></li>
+</ul>
+<p><strong>Sub-types include:</strong></p>
+<ul>
+<li><em>FS</em>= Functional Seizures (aka <em>NEAD</em> [Non Epileptic Attack Disorder] and others).</li>
+<li><strong>FMD</strong> = Functional Movement Disorder.</li>
+<li>Functional Stroke.</li>
+<li>And many others.</li>
+</ul>
+<aside class="notes">
+<p>- Brief explanation. epilepsy but without the same underlying electrical processes. Different brain structural changes.</p>
+<p>- Really important because treatments for seizures are not effective for functional seizures.</p>
+<p>- FND is an umbrella term that captures all the different types of seemingly neurological symptoms.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="diagnoses" class="slide level2">
+<h2>Diagnoses:</h2>
+<h3 id="functional-neurological-symptoms-disorder-dsm-v">Functional Neurological Symptoms Disorder (DSM-V)</h3>
+<ul>
+<li><p>Inclusion term to Conversion Disorder</p></li>
+<li><p>Diagnosis requires motor and/or sensory findings.</p></li>
+<li><p>Evidence of incompatibility between symptom and recognized neurological/medical conditions (APA, 2013, Stone et al., 2010b).</p></li>
+<li><p>Symptoms must impair social/occupational functioning or lead individuals to seek a medical opinion.</p></li>
+<li><p>No duration or severity criteria, or explicit rules for exclusion based on additional symptoms.</p></li>
+</ul>
+<h3 id="dissociative-neurological-symptom-disorder-icd-11">Dissociative Neurological Symptom Disorder (ICD-11)</h3>
+<ul>
+<li>Much push back on terminology from FND charities and specialists around the world.</li>
+</ul>
+</section>
+<section id="functional-seizures" class="slide level2">
+<h2>Functional Seizures</h2>
+<ul>
+<li><p>One manifestation/constellation of FND.</p></li>
+<li><p>Within DSM-V classified (conversion disorder/functional neurological symptom disorder).</p></li>
+<li><p><strong>“Functional”</strong> referring to an impairment of normal functioning.</p></li>
+<li><p>Disruption of usually integrated functions of consciousness, memory, identity, or perception (Goldstein et al., 2000).</p></li>
+<li><p>Temporary loss of <strong>control and/or awareness</strong>.</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>The term functional has been used to describe symptoms which impacts upon neurological function but which do not have the same underlying pathological abnormality.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Dissociation: amnesia, fugue, dissociative id disorder, depersonalisation disorder)</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="videos-of-fnd" class="slide level2">
+<h2>Videos of FND</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">fs 1</a></li><li><a href="#tabset-1-2">fs 2</a></li><li><a href="#tabset-1-3">fs 3</a></li><li><a href="#tabset-1-4">fs 4</a></li><li><a href="#tabset-1-5">jerks</a></li><li><a href="#tabset-1-6">walk</a></li><li><a href="#tabset-1-7">tics</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/MA1EYAg9y5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+<div id="tabset-1-2">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/MA1EYAg9y5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+<div id="tabset-1-3">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/i_1U9lNi314" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+<div id="tabset-1-4">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/MdOCo4hD4zI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+<div id="tabset-1-5">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/DH7jGSoaORk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+<div id="tabset-1-6">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SRv1WaovyuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+<div id="tabset-1-7">
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/xCIXhnxySqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Timings:</p>
+<ol type="1">
+<li>“2m54s”</li>
+<li>“13m20s”</li>
+<li>“0m59s”</li>
+<li>“0m44s”</li>
+<li>“2m04s”</li>
+<li>“0m00s”</li>
+<li>“0m44s”</li>
+<li>“0m00s”</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="files/img/survey-co-occurance.png" style="box-shadow: 0 0 20px black;" width="600"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/survey-vas.png" style="box-shadow: 0 0 20px black;" width="600" height="600"></p>
+</div>
+</div>
+
+<aside class="notes">
+<ul>
+<li>These visualisations come from a recent survey of people living with FND.</li>
+<li>This is the largest survey of this kind. As you can see on the right hand side from the symptom cooccurrence network there is a high comorbidity of various forms of symptoms with FND.</li>
+<li>Quite concerning are the rates of co-occurance with other symptoms which are not core FND symptoms, for example 93% of people with FND also experience fatigue.</li>
+<li>From the visual analog clock on the left you can see the responses to a range of questions from people living with FND. Quite interesting is the response to the question “Cause a combination of physical/stress”, is very high. This is a little insight as to what people with FND believe the cause of it to be, and based on this it is both physical and stress related.</li>
+<li>Heterogeneity.</li>
+<li>Co-occurance network.</li>
+<li>Biggest survey conducted on FND.</li>
+<li>50% of people had seizures. 93% had fatigue!</li>
+<li>VAS - caused by physical and emotional factors.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Taken from a <span class="aside column-margin">survey of 1048 individuals living with FND</span> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.15018?casa_token=2uCYK3ti2IMAAAAA:scIHpsYzg1-fU-YKXrGNfEOeq6oNNk_ILusUvSlaCCI2KwYUCXa2B19jwp-MNM4B23U7b2ECC7lQ7Rs">(Butler et al., 2021)</a></p>
+</div></aside></section>
+<section id="symptom-heterogeneity" class="slide level2" data-background-color="white">
+<h2>Symptom Heterogeneity</h2>
+<p>Classified by <a href="https://www.neurosymptoms.org/en_GB/symptoms/">neurosymptoms.org</a>, extracted 2021</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/neurosymptoms-types.png" width="1400" height="1000"></p>
+</figure>
+</div>
+<aside class="notes">
+<ul>
+<li>FND takes many shapes and forms. The symptoms that one person experiences for FND may look very different to another persons experiences. This is what we call heterogeneity.As the constellation of symptoms that individuals experience can be so different, it is inherently difficult to classify subtypes. What we can do however is group the types of symptoms that people tend to experience. This grid is based on the euro symptoms website which is a fantastic resource. For each of these categories of symptoms there is a attached information sheet for patients and professionals to download.</li>
+<li>Working in and then EAD service, the people that I see all experience some form of functional seizure. Despite this, the vast majority of patients will also experience another form of functional symptom.</li>
+<li>Pretty much anything neurological!</li>
+<li>Lots of people presenting to the NEAD service experience other symptoms.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="historical-perspectives" class="slide level2" data-background-color="white">
+<h2>Historical Perspectives</h2>
+<p>Taken from <a href="https://www.sciencedirect.com/science/article/pii/S2589986421000630">Raynor &amp; Baslet (2021)</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/historical.png" class="img" height="1000"></p>
+</figure>
+</div>
+<aside class="notes">
+<ul>
+<li><p>400 BC: Hippocrates -&gt; “hysteria” (hyster = uterus).</p></li>
+<li><p>Pre-1700s:Considered demonic possession/witchcraft</p></li>
+<li><p>Late-1700s: Recognised as not gender exclusive.</p></li>
+<li><p>1800s: Charcott -&gt; “hysteria major” (functional seizures).</p></li>
+<li><p>1890s: Freud -&gt; “conversion disorder”.</p></li>
+<li><p>1910s: Studied prominently (First World War -&gt; ‘shell shock’).</p></li>
+<li><p>1910+ Long forgotten about.</p></li>
+<li><p>1980s: Hysteria retired as a term within the US.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-do-we-mean-by-functional" class="slide level2">
+<h2>What Do We Mean By Functional?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Impairment of function.</p></li>
+<li><p><strong>Not</strong> suggesting a behavioural or intentional component.</p></li>
+<li><p>Functional vs.&nbsp;Organic debates are outdated and inaccurate dualism.<sup>1</sup></p></li>
+<li><p>Can a person be non-organic?<sup>2</sup></p></li>
+<li><p>Software problem vs.&nbsp;hardware problem?</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1738&amp;q=80"></p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li><p>(i.e., not relating to or derived from living matter).</p></li>
+<li><p>What organic symptoms are not in some way mediated by psychological processes? and what repeated motor patterns or neuronal activity can not lead to structural change?</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Not related to the behavioural notion of ‘functional analysis’</p></li><li id="fn2"><p>See excellent video by <a href="https://www.youtube.com/watch?v=ersm5f_0LVI&amp;t=21s%22">John Stone</a> for more on this.</p></li></ol></aside></section>
+<section id="the-case-for-an-involuntary-condition" class="slide level2">
+<h2>The Case For An Involuntary Condition</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Neuroimaging in FND is an emerging area<sup>1</sup>.</p></li>
+<li><p>Neurological differences shown in FND<sup>2</sup>.</p></li>
+<li><p>FMRI studies show differences within people while experiencing vs volunteering tremor (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/">Voon et al., 2010</a>)</p></li>
+<li><p>Now an international working group for neuroimaging.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/neuropatho.jpg" style="box-shadow: 0 0 20px black;"></p>
+<ul>
+<li>Multi-network disorder (Perez, 2021) likely influencing limbic/salience, self-agency, attentional, and sensorimotor circuits.</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<p>Compared to brain imaging in other neuropsychiatric disorders, FND research remains in its early stages (e.g., no samples &gt; 100 patients, few findings replicated, and even fewer studies tied to treatments).notes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><ol class="aside-footnotes"><li id="fn3"><p>Figure taken from from Drane et al (2020)</p></li><li id="fn4"><p>See <a href="https://www.sciencedirect.com/science/article/pii/S221315822100067X">Perez et al (2021)</a> for a review</p></li></ol></aside></section>
+<section id="diagnosis-prevalence-terminology" class="title-slide slide level1 center" data-background-color="#57342d" style="text-align: center; padding: 200px 0;">
+<h1>Diagnosis, Prevalence &amp; Terminology</h1>
+
+</section>
+
+<section id="how-common-is-fnd" class="slide level2">
+<h2>How Common Is FND?</h2>
+<p><strong>FND Prevalence:</strong> 50/100000 in the population (Carson, 2016).</p>
+<p><strong>Functional Seizure Prevalence:</strong></p>
+<ul>
+<li><p>2-33/100000 (Carson, 2016).</p></li>
+<li><p>Recent estimate = 24/100,000 (Norway) <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">(Villagrán, 2021)</a> .</p></li>
+<li><p>Estimated 20,000 people in the UK.</p></li>
+<li><p>8-12% of new presentations to seizure clinics <a href="href=%22https://www.sciencedirect.com/science/article/pii/S1059131108000022">(Angus-Leppan, 2008)</a>.</p></li>
+<li><p>11% of seizures presenting to emergency services (Dickson et al., 2017).</p></li>
+</ul>
+
+<ul>
+<li><p>Difficult to accurately quantify prevalence rates due to:</p>
+<ul>
+<li><p>diagnostic delay</p></li>
+<li><p>patients being lost to follow-up.</p></li>
+</ul></li>
+<li><p>May not seem common; but patients frequently attend to A&amp;E and psychology services so I will guarantee that pretty much everyone will work with someone at somepoint.</p></li>
+</ul>
+<aside><div>
+<ul>
+<li>It is difficult to accurately quantify prevalence rates.</li>
+</ul>
+</div></aside></section>
+<section id="what-are-the-risk-factors-for-fnd" class="slide level2">
+<h2>What Are The Risk Factors For FND?</h2>
+<ul>
+<li><p><strong>Age:</strong></p>
+<ul>
+<li><p>Presents across the life span.</p></li>
+<li><p>Young adults (15–19) most at risk: 59.5 per 100,000. (<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">Villagrán et al., 2021</a>)</p></li>
+</ul></li>
+<li><p><strong>Gender:</strong></p>
+<ul>
+<li><p>Female preponderance = 60-80%.</p></li>
+<li><p>Disparities less evident in older cohorts (e.g., <a href="https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract">Jungilligens, 2021</a>)</p></li>
+</ul></li>
+<li><p><strong>Epilepsy:</strong> High rate of co-morbidity.</p></li>
+<li><p><strong>Learning Disabilities:</strong> High rate of co-morbidity (<a href="https://www.sciencedirect.com/science/article/pii/S1059131121002521">Rawlings et al., 2021</a>).</p></li>
+<li><p><strong>Demographics:</strong></p>
+<ul>
+<li>White and low SES</li>
+</ul></li>
+</ul>
+
+<p><strong>Age:</strong></p>
+<ul>
+<li><p>Modal age of onset is 16. mean and median = 28.</p></li>
+<li><p>Age disparity dissipates in late adulthood.</p></li>
+</ul>
+<p><strong>Epilepsy:</strong></p>
+<ul>
+<li><p>12–22% Dual diagnosis (meta-analysis).</p></li>
+<li><p>Challenging to diagnose</p></li>
+</ul>
+<p><strong>LD:</strong></p>
+<ul>
+<li>Median = 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).</li>
+</ul>
+<p><strong>Demographics:</strong></p>
+<ul>
+<li><p>Over 50% of all patients live in areas categorised within the highest deprivation quintile</p></li>
+<li><p>Over two- thirds of patients being unemployed at the point of seeking treatment for PNES (Goldstein <em>et al.</em>, 2019).</p></li>
+</ul>
+<aside><div>
+<p>For a detailed account of risk and aetiological factors see <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107">Popkirov et al., (2019)</a></p>
+</div></aside></section>
+<section id="what-are-the-risk-factors-for-fnd-1" class="slide level2">
+<h2>What Are The Risk Factors For FND?</h2>
+<ul>
+<li><p><strong>Psychiatric Co-morbidity:</strong></p>
+<ul>
+<li><p>Anxiety and depression.</p></li>
+<li><p>Interpersonal disorders.</p></li>
+<li><p>PTSD, Trauma.</p></li>
+</ul></li>
+<li><p><strong>Health Co-morbidity:</strong></p>
+<ul>
+<li><p>Pain &amp; Fatigue.</p></li>
+<li><p>Sleep disturbance.</p></li>
+<li><p>Migraine.</p></li>
+<li><p>TBI.</p></li>
+<li><p>Epilepsy Surgery</p></li>
+</ul></li>
+</ul>
+
+<ul>
+<li><p><strong>PTSD:</strong> 38%</p></li>
+<li><p>Norm rather than an exception (Nicholson et al., 2020).</p></li>
+<li><p><strong>Psychiatric conditions:</strong> especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher.</p></li>
+<li><p><strong>Personality disorders:</strong> higher rate than the general population. Particularly EUPD and cluster C presentations.</p></li>
+<li><p><strong>Epilepsy surgery:</strong> New onset following surgery (upto 9%).</p></li>
+<li><p><strong>TBI:</strong> Rates vary a lot. Pooled frequency of about 42%</p></li>
+</ul>
+<aside><div>
+<p>For a detailed account of risk and aetiological factor see <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107">Popkirov et al., (2019)</a></p>
+</div></aside></section>
+<section id="who-is-involved-in-diagnosis" class="slide level2">
+<h2>Who Is Involved in Diagnosis?</h2>
+<p>Usually by a Neurologist or Neuropsychiatrist.</p>
+<p>Assessments can include:</p>
+<ul>
+<li><p>Clinical history</p></li>
+<li><p>Videos &amp; subjective experience</p></li>
+<li><p>Objective signs</p></li>
+<li><p>EEG (electroencephalogram)</p></li>
+<li><p>ECG (electrocardiogram)</p></li>
+<li><p>Video telemetry</p></li>
+</ul>
+<p>Any professional who potentially comes into contact with patients has a potential role in identification and/or clarification.</p>
+<p>This is everyone!</p>
+<aside class="notes">
+<ul>
+<li><p><strong>Key dilemma =</strong> Prompt and accurate diagnosis.</p></li>
+<li><p><strong>Clinicians unfamiliar =</strong> reduced sign posting and (confidence in) diagnosis.</p></li>
+<li><p>Difficult to distinguish between conditions (e.g., epilepsy and functional seizures) and may need specialist investigation of a neurologist with experience in FND.</p></li>
+<li><p><strong>Video-telemetry:</strong> inpatient admission so that they can be observed having seizures during the process known as video toiletry.</p></li>
+<li><p>Dilemmas = delay.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level2" data-background-color="white">
+<h2></h2>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important Notes around Diagnosis in FND</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p>Based on positive clinical signs/symptoms<sup>1</sup>.</p></li>
+<li><p>Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.</p></li>
+<li><p>Trauma is not required for diagnosis (more on this later).</p></li>
+<li><p>Perceptions of ‘diagnosis of exclusion’ and hesitancy lead to damaging delays in diagnosis.</p></li>
+<li><p>Following diagnosis, new symptoms are frequently (and wrongfully) dismissed.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li><p>For too often been a diagnosis of exclusion</p></li>
+<li><p>There is clearly a need for careful examination and ruling out of other conditions HOWEVER this should not be the default position.</p></li>
+<li><p>Inconsistent symptoms (mediated by other mechanisms: cognitive, emotional, physical).</p>
+<ul>
+<li>Example = recent man with tics.</li>
+</ul></li>
+<li><p>Trauma not necessary (high potential to cause harm).</p></li>
+<li><p>Do not dismiss. One of the most powerful thing I hear from patient with FND is the stories of how they have been left and treated by health clinicians.</p>
+<ul>
+<li>One of the things that repeatedly comes up is how new symptoms suddenly get dismissed when there is a dx of FND in the care notes.</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><ol class="aside-footnotes"><li id="fn5"><p>Helpful articles on positive symptoms include <a href="%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view">Aybeck, 2022</a> &amp; <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263">Finkelstein et al (2021)</a></p></li></ol></aside></section>
+<section id="symptoms-functional-movement" class="slide level2" data-background-color="white">
+<h2>Symptoms: Functional Movement</h2>
+<p>Taken from: FND in the emergency department <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263">Finkelstein et al (2021)</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/Stone-movement-table.png" width="1200" height="1200"></p>
+</figure>
+</div>
+</section>
+<section id="symptoms-functional-movement-1" class="slide level2" data-background-color="white">
+<h2>Symptoms: Functional Movement</h2>
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/BEtLcfikzPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+<aside class="notes">
+<ul>
+<li><p>Incongruence.</p></li>
+<li><p>Not about trying to catch them out. Complex brain network disorder impacting upon aspects of attention, autonomy and emotion processing.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="symptoms-functional-seizures" class="slide level2" data-background-color="white">
+<h2>Symptoms: Functional Seizures</h2>
+<p>Taken from: FND in the emergency department <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263">Finkelstein et al (2021)</a></p>
+<p><img data-src="files/img/Stone-NEAD-Table.png" width="1200" height="1200"></p>
+</section>
+<section id="how-common-is-fnd-1" class="slide level2">
+<h2>How Common Is FND?</h2>
+<p><strong>FND Prevalence:</strong> 50/100000 in the population (Carson, 2016).</p>
+<p><strong>Functional Seizure Prevalence:</strong></p>
+<ul>
+<li><p>2-33/100000 (Carson, 2016).</p></li>
+<li><p>Recent estimate = 24/100,000 (Norway) <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">(Villagrán, 2021)</a> .</p></li>
+<li><p>Estimated 20,000 people in the UK.</p></li>
+<li><p>8-12% of new presentations to seizure clinics <a href="href=%22https://www.sciencedirect.com/science/article/pii/S1059131108000022">(Angus-Leppan, 2008)</a>.</p></li>
+<li><p>11% of seizures presenting to emergency services (Dickson et al., 2017).</p></li>
+</ul>
+
+<aside class="notes">
+<ul>
+<li><p>Difficult to accurately quantify prevalence rates due to:</p>
+<ul>
+<li><p>diagnostic delay</p></li>
+<li><p>patients being lost to follow-up.</p></li>
+</ul></li>
+<li><p>May not seem common; but patients frequently attend to A&amp;E and psychology services so I will guarantee that pretty much everyone will work with someone at somepoint.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<ul>
+<li>It is difficult to accurately quantify prevalence rates.</li>
+</ul>
+</div></aside></section>
+<section id="what-are-the-risk-factors-for-fnd-2" class="slide level2">
+<h2>What Are The Risk Factors For FND?</h2>
+<ul>
+<li><p><strong>Age:</strong></p>
+<ul>
+<li><p>Presents across the life span.</p></li>
+<li><p>Young adults (15–19) most at risk: 59.5 per 100,000. (<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">Villagrán et al., 2021</a>)</p></li>
+</ul></li>
+<li><p><strong>Gender:</strong></p>
+<ul>
+<li><p>Female preponderance = 60-80%.</p></li>
+<li><p>Disparities less evident in older cohorts (e.g., <a href="https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract">Jungilligens, 2021</a>)</p></li>
+</ul></li>
+<li><p><strong>Epilepsy:</strong> High rate of co-morbidity.</p></li>
+<li><p><strong>Learning Disabilities:</strong> High rate of co-morbidity (<a href="https://www.sciencedirect.com/science/article/pii/S1059131121002521">Rawlings et al., 2021</a>).</p></li>
+<li><p><strong>Demographics:</strong></p>
+<ul>
+<li>White and low SES</li>
+</ul></li>
+</ul>
+
+<aside class="notes">
+<p><strong>Age:</strong></p>
+<ul>
+<li><p>Modal age of onset is 16. mean and median = 28.</p></li>
+<li><p>Age disparity dissipates in late adulthood.</p></li>
+</ul>
+<p><strong>Epilepsy:</strong></p>
+<ul>
+<li><p>12–22% Dual diagnosis (meta-analysis).</p></li>
+<li><p>Challenging to diagnose</p></li>
+</ul>
+<p><strong>LD:</strong></p>
+<ul>
+<li>Median = 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).</li>
+</ul>
+<p><strong>Demographics:</strong></p>
+<ul>
+<li><p>Over 50% of all patients live in areas categorised within the highest deprivation quintile</p></li>
+<li><p>Over two- thirds of patients being unemployed at the point of seeking treatment for PNES (Goldstein <em>et al.</em>, 2019).</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>For a detailed account of risk and aetiological factors see <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107">Popkirov et al., (2019)</a></p>
+</div></aside></section>
+<section id="what-are-the-risk-factors-for-fnd-3" class="slide level2">
+<h2>What Are The Risk Factors For FND?</h2>
+<ul>
+<li><p><strong>Psychiatric Co-morbidity:</strong></p>
+<ul>
+<li><p>Anxiety and depression.</p></li>
+<li><p>Interpersonal disorders.</p></li>
+<li><p>PTSD, Trauma.</p></li>
+</ul></li>
+<li><p><strong>Health Co-morbidity:</strong></p>
+<ul>
+<li><p>Pain &amp; Fatigue.</p></li>
+<li><p>Sleep disturbance.</p></li>
+<li><p>Migraine.</p></li>
+<li><p>TBI.</p></li>
+<li><p>Epilepsy Surgery</p></li>
+</ul></li>
+</ul>
+
+<aside class="notes">
+<ul>
+<li><p><strong>PTSD:</strong> 38%</p></li>
+<li><p>Norm rather than an exception (Nicholson et al., 2020).</p></li>
+<li><p><strong>Psychiatric conditions:</strong> especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher.</p></li>
+<li><p><strong>Personality disorders:</strong> higher rate than the general population. Particularly EUPD and cluster C presentations.</p></li>
+<li><p><strong>Epilepsy surgery:</strong> New onset following surgery (upto 9%).</p></li>
+<li><p><strong>TBI:</strong> Rates vary a lot. Pooled frequency of about 42%</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>For a detailed account of risk and aetiological factor see <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107">Popkirov et al., (2019)</a></p>
+</div></aside></section>
+<section id="misdiagnosis-delayed-diagnosis" class="slide level2">
+<h2>Misdiagnosis &amp; Delayed diagnosis</h2>
+<p>Difficult at times to distinguish from other conditions.</p>
+<p>Often leads to problems with:</p>
+<ul>
+<li><p>Journey to diagnosis can be very long.</p>
+<ul>
+<li>Recent estimate of 3.2 years.</li>
+</ul></li>
+<li><p>Response to functional seizures with seizure protocols (very common, see <a href="https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf">Jungilligens et al., 2021</a>).</p></li>
+<li><p>Prolonged use of anti-convulsants.</p></li>
+<li><p>Lack of access to necessary support.</p></li>
+<li><p>Time to receive treatment even longer.</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><p>Among 1210 patients diagnosed and treated as status epilepticus about 79 (8.1%) were discharged with a final diagnosis of pPNES (mean age = 32.6 years; 8 to 84 years).</p></li>
+<li><p>(although 48% in same year).</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="explaining-the-diagnosis" class="slide level2">
+<h2>Explaining the Diagnosis</h2>
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Wz0m69y2s_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</section>
+<section id="tips-for-explaining-the-diagnosis" class="slide level2" data-background-color="white">
+<h2>Tips for Explaining the Diagnosis</h2>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tips</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p>Everyone has a role.</p></li>
+<li><p>Need to be able to sensitively communicate, clarify and explain.</p></li>
+<li><p>Don’t use pejorative terms.</p></li>
+<li><p>Bio-psycho-social explanation (be careful with psychological trigger words).</p></li>
+<li><p>Validate symptoms as genuine and common.</p></li>
+<li><p>Name the condition.</p></li>
+<li><p>Provide a brief mechanistic explanation (e.g., “brain becomes overloaded and shuts down”).</p></li>
+<li><p>Foster a hopeful sentiment of improvement (eg, pointing out that treatments are available).</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Taken from <a href="https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view">Aybek et al (2022)</a></p>
+</div></aside></section>
+<section id="terminology-and-language" class="slide level2">
+<h2>Terminology and Language</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Many terms have been used:</p>
+<ul>
+<li><p>Non-epileptic attacks.</p></li>
+<li><p>Psychogenic seizures.</p></li>
+<li><p>Psychogenic non-epileptic seizures (PNES).</p></li>
+<li><p>Dissociative seizures.</p></li>
+<li><p>Conversion disorder.</p></li>
+<li><p>Functional seizures.</p></li>
+<li><p>Psychological seizures.</p></li>
+<li><p>Pseudo-seizures.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/WordsHavePower.jpg"></p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li><p>Langue is important</p></li>
+<li><p>Range of terms</p></li>
+<li><p>Language has often included content that dismisses people are leaves them feeling like the condition isn’t real.</p></li>
+<li><p>Some highly unfavoured by the FND community. Particularly stigmatising terms.</p></li>
+<li><p>Some terms hold on to pejorative views.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="avoid-pejorative-terms" class="slide level2">
+<h2>Avoid Pejorative Terms</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Much debate regarding preferred term<sup>1</sup>.</p>
+<p>Communication has a significant impact on:</p>
+<ul>
+<li><p>Patient satisfaction.</p></li>
+<li><p>Acceptance of the diagnosis.</p></li>
+<li><p>Frequency/severity of symptoms.</p></li>
+<li><p>Future engagement with healthcare services (Hall-Patch et al., 2010; McKenzie, Russell).</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/WordsHavePower.jpg"></p>
+<p>Be led by the individual</p>
+</div>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn6"><div class="column" style="width:50%;">
+<p>(see <a href="https://www.sciencedirect.com/science/article/pii/S1059131103000554%22">Stone et al., 2003</a>, <a href="https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf">Barron., 2019</a>, FND Society., 2020, &amp; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/">La France., 2010</a>.</p>
+</div>
+</li></ol></aside></section>
+<section id="labels-matter" class="slide level2">
+<h2>Labels Matter</h2>
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/D2TCXSVPmJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</section>
+<section id="what-do-patients-prefer" class="slide level2" data-background-color="white">
+<h2>What do Patients Prefer?</h2>
+<p>Taken from recent <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263%22">Loewenberger, 2021</a> (UK service evaluation)</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="files/img/terminology-preferences.png"></p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/preferences-rating.png"></p>
+<p></p><figcaption>Preference ratings are reverse scored, so high scoring items are least preferred terms.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li><p>UK service evaluation</p></li>
+<li><p>The bar chart that you can see shows the preference ratings of the commonly used terms in order to show rank.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="not-to-be-confused-with" class="slide level2">
+<h2>Not to be Confused With</h2>
+<p><strong>Malingering:</strong> Deliberately manufacturing symptoms for material gain e.g.&nbsp;Money.</p>
+<p><strong>Factitious Disorder:</strong> Deliberately manufacturing symptoms for emotional gain e.g.&nbsp;Attention.</p>
+<p>Do not mistake symptoms for factitious/malingering just because it doesn’t fit with what your framework.</p>
+<aside class="notes">
+<ul>
+<li><p>Big take away message = real experience.</p></li>
+<li><p>This is really important because there is a history of people with FND not being believed or been described as “faking”.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="to-clarify" class="slide level2" data-background-color="white">
+<h2>To Clarify</h2>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Points From Part 1</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p>FND is a real condition.</p></li>
+<li><p>Everyone has a role diagnosis.</p></li>
+<li><p>Diagnosis based on positive symptoms.</p></li>
+<li><p>Avoid pejorative language.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="time-for-coffee" class="title-slide slide level1 center" style="text-align: center; padding: 200px 0;">
+<h1>Time for Coffee</h1>
+<p><lord-icon speed="1.0" src="https://cdn.lordicon.com/gkpgwfag.json" trigger="loop"></lord-icon></p>
+</section>
+
+<section id="explanatory-models" class="title-slide slide level1 center" data-background-color="#57342d" style="text-align: center; padding: 200px 0;">
+<h1>Explanatory Models</h1>
+
+</section>
+
+<section id="the-mind-body-link" class="slide level2">
+<h2>The Mind Body Link</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Psychological experiences influence the body <strong>All The Time.</strong></p>
+<p>The cause is not medical but the impact on the body is <strong>real.</strong></p>
+<ul>
+<li><p>Sudden shock = heart beats faster.</p></li>
+<li><p>Embarrassment = face goes red.</p></li>
+<li><p>Upset = eyes produce tears.</p></li>
+</ul>
+<p>It is normal for changes to happen in the body <em>without</em> a medical cause or disease.</p>
+<p>FND also happens through this Mind-Body link.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/12/watery-eyes/watery-eye_large.jpg?la=en&amp;hash=44804C18C1D6E03DC44D5AD8B2C2CAA17EB3B37A"></p>
+<p><img data-src="https://austinheart.com/util/images/blog/2019/2019-Aug-Blog--Woman-Clutching-Her-Chest-950x475.jpg"></p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>People often told that it isn’t physical - comes as a big shock.</li>
+<li>What we know about the mind and body are that they are, as I’m sure you already know, intrinsically related.</li>
+<li>How we think and feel can have a huge influence on our body and our visceral experience. On our very relatable set of examples, I’m sure people have had experience of shedding a tear and feeling really sad or heart rate increasing and feeling quite scared or shocked.</li>
+<li>This relationship between the mind and body is in a small part A small illustration of what can happen in NEAD. In thinking about any NEAD and also in treating it we are constantly thinking about this mind body link.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="autonomic-reactions" class="slide level2">
+<h2>Autonomic Reactions</h2>
+<p>Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival.</p>
+<p>Freezing is one of the main defensive threat reactions across species (Roelofs, 2017; Rockliffe-Fidler &amp; Mark Willis, 2018).</p>
+
+<img data-src="files/img/fight-flight-freeze.jpg" class="r-stretch"><ul>
+<li><p>Fight-flight theory. sympathetic nervous system.</p></li>
+<li><p>Parasymathetic branch of the NS.</p></li>
+<li><p>Sometimes it can be an adaptive response.</p></li>
+<li><p>A means of responding to a threat or a trigger. mammals.</p></li>
+</ul>
+</section>
+<section id="explanatory-models-1" class="slide level2">
+<h2>Explanatory Models</h2>
+<ol type="1">
+<li>Trauma &amp; conversion.</li>
+<li>Bio-psycho-social models.</li>
+<li>Cognitive/neuropsychological models.</li>
+<li>Integrated cognitive model.</li>
+<li>Emotional processing.</li>
+</ol>
+</section>
+<section id="trauma" class="slide level2">
+<h2>Trauma</h2>
+<ul>
+<li><p><strong>Traumatic event:</strong> incident causing physical, emotional or psychological harm.</p></li>
+<li><p>Single event or repeated incidents (i.e., complex).</p></li>
+<li><p>Recent or a long time ago.</p></li>
+<li><p>Highly common in FND (compared to case controls, <a href="http://dx.doi.org/10.1016/%20S2215-0366(18)30051-8">Ludwig et al., 2018</a>).</p></li>
+<li><p>Does not consistently explain aetiology or onset.</p></li>
+<li><p>Not always helpful to ask.</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>Trauma does not explain why one patient gets a seizure and another paralysis</li>
+<li>Nor does an abusive experience 10 years ago explain why the symptom starts on the 7th Sept 2017</li>
+<li>Sometimes more helpful to ask about the emotional reaction to sudden onset physical symptoms.</li>
+<li>The magnitude of a trauma is less to do with how severe the event is but how severe it is percieved and processed by the individual.</li>
+<li>Trauma is something that gets brought up a lot when discussing functional seizures. Trauma or a traumatic event is an event or incident which includes some form of harm either physical emotional or psychological.</li>
+<li>This might be a single isolated incident (example car crash). Or it might be a more cumulative effect of lots of little things that happen over time (Example bullying).</li>
+<li>Lots of people with functional symptoms have experienced some form of trauma, however there are also a subset of patients who have not.</li>
+<li>When there is no trauma present, it can leave conditions feeling a little confused as to why the functional symptoms have developed. For some people, there may have been some form of trauma but which can no longer be remembered or is not recognised as being traumatic. For example so I might have had a close family bereavement, and the individual with functional symptoms may feel that this was unrelated to the functional symptoms, however it might be that overtime this is related.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="rates-of-stressful-life-events" class="slide level2" data-background-color="white">
+<h2>Rates of Stressful Life Events</h2>
+<p>Taken from recent <a href="https://www.epanlab.nl/wp-content/uploads/2020/04/Ludwig-et-al.-2018.pdf">Ludwig et al 2018</a>.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="files/img/Ludwig-paper.jpeg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/Ludwig.table.png" alt="Preference ratings are reverse scored, so high scoring items are least preferred terms."></p>
+</div>
+</div>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important Point</strong></p>
+</div>
+<div class="callout-content">
+<p>Although Rates are high, many people with FND do NOT report having experienced any trauma.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Our results show that the rate of childhood and adult stressful life events and maltreatment, particularly emotional neglect, is increased in patients with conversion (functional neurological) disorder compared with controls. The association was stronger in cases of childhood onset and when we compared with healthy controls as opposed to disease controls. However, a proportion of cases report no stressors. We concluded that stressors are relevant to the cause and development of conversion (functional neurological) disorder and therefore a potential treatment target, but exposure to such stressors is not an essential diagnostic feature. Our findings support the changes to DSM-5 and have implications for ICD-11.</p>
+<p>“13 studies that specifically ascertained that the participants had not had either severe life events or any subtype of maltreatment all found a proportion of patients with functional neurological disorder reporting no stressor.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="professional-beliefs" class="slide level2" data-background-color="white">
+<h2>Professional Beliefs</h2>
+<p>Taken from <a href="https://core.ac.uk/download/pdf/81139313.pdf">Whitehead et al., 2012</a></p>
+
+<img data-src="files/img/suspect-causes.png" class="r-stretch"></section>
+<section id="trauma-fnd-onset" class="slide level2" data-background-color="white">
+<h2>Trauma &amp; FND Onset</h2>
+<p>Taken from <a href="https://jnnp.bmj.com/content/90/7/813">Keynejad, 2021</a></p>
+
+<img data-src="files/img/trauma-models.png" class="r-stretch"><aside class="notes">
+<p>- This is a framework of the different ways that people can experience trauma, and how that can have an impact upon whether or not a person develops functional symptoms.</p>
+<p>- Each of these four quadrants show different permutations of how functional seizures might develop.</p>
+<p>In the top left quadrant you have a scenari whereby you might have a biological risk to developing this condition and then they were exposed to a moderate stressful event in childhood and then later in adult there was a moderate precipitating factor.</p>
+<p>- even people with mild biological risk can develop it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="bio-psycho-social-model" class="slide level2" data-background-color="white">
+<h2>Bio-psycho-social Model</h2>
+<p>Taken from Reuber 2009</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/formulation.png" width="720"></p>
+</figure>
+</div>
+<p>Taken from Nicholson 2020</p>
+<p><img data-src="files/img/3ps.png"></p>
+</section>
+<section id="integrated-cognitive-model" class="slide level2">
+<h2>Integrated Cognitive model</h2>
+<p>Model proposed by <a href="https://www.seizure-journal.com/article/S1059-1311(16)30222-9/fulltext">Reuber &amp; Brown (2017)</a></p>
+<ul>
+<li><p>Single explanatory framework.</p></li>
+<li><p>Symptoms = seizure scaffold + breakdown in inhibitory processes.</p></li>
+<li><p>Brain response to sensory input = error (because of our expectations).</p></li>
+<li><p>Seizure scaffold becomes activated (e.g., by arousal, emotions, thoughts).</p></li>
+<li><p>Over time becomes a conditioned response (also learned helplessness + wilful submission).</p></li>
+<li><p>Helps to account for variation in psychological history.</p></li>
+</ul>
+<aside class="notes">
+<p>- the ICM suggests that the observable and subjective elements of PNES result from the automatic execution of a learnt mental representation (broadly speaking, “idea”) of seizures (the “seizure scaffold”), typically in the context of a high level inhibitory dysfunction resulting from chronic stress, arousal and other factors that compromise high level processing (Fig. 1).</p>
+<p>- Sensory inputs can be trumped by our pre-existing expectations (McGurk Effect).</p>
+<p>- Like a conditioned reflex, the seizure scaffold can be triggered by a range of internal or external stimuli. This often occurs in response to elevated autonomic arousal, although it can become divorced from abnormal autonomic and emotional activity and may be triggered by thoughts or perceptions which are, objectively, quite neutral.Triggering of the seizure scaffold often disrupts the individual’s (full) awareness of distressing material. The seizure scaffold is more likely to be triggered in the presence of dysfunctional inhibition, which could be due to chronic stress but also have “physical” causes such as illness or the effects of medication.</p>
+<p>- However, the ICM can accommo- date the clinical and psychological heterogeneity evident from so many of the studies discussed above, while indicating how factors such as previous traumatic experiences, current life adversity and physical health problems may contribute to PNES. Importantly, however, none of these factors is essential for the development or maintenance of the disorder, even though they may be of central importance in specific cases.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="integrated-cognitive-model-1" class="slide level2" data-background-color="white">
+<h2>Integrated Cognitive Model</h2>
+<p>Taken from <a href="https://www.frontiersin.org/articles/10.3389/fneur.2020.00461/full">Anzellotti et al., 2020</a> (Based on Reuber &amp; Brown)</p>
+
+<img data-src="files/img/ICM.png" class="r-stretch"></section>
+<section id="predictive-processing-errors" class="slide level2" data-background-color="white">
+<h2>Predictive Processing Errors</h2>
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/UrY69Y-OFZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</section>
+<section id="integrated-cognitive-model-2" class="slide level2" data-background-color="white">
+<h2>Integrated Cognitive Model</h2>
+<p>Taken from <a href="https://www.seizure-journal.com/article/S1059-1311(16)30222-9/fulltext">Reuber &amp; Brown (2017)</a></p>
+<p><img data-src="files/img/icm2.jpg"></p>
+<p>Taken from <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107">Popkirov et al (2019)</a></p>
+<p><img data-src="files/img/icm.jpg"></p>
+</section>
+<section id="emotional-processing-model" class="slide level2" data-background-color="white">
+<h2>Emotional Processing Model</h2>
+<p>Taken from: <a href="https://www.asuemotionlab.com/wp-content/uploads/Pathophysiology_CNS_Spectrums_2020.pdf">Drane et al (2020).</a></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="files/img/emotion-processing-paper.png" width="700" height="550"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/emotion-processing.png" alt="Preference ratings are reverse scored, so high scoring items are least preferred terms."></p>
+</div>
+</div>
+</section>
+<section id="emotional-processing-model-1" class="slide level2">
+<h2>Emotional Processing Model</h2>
+<ul>
+<li><p>Based on new insights (emotion processing and imaging).</p></li>
+<li><p>Deficits can be some combination of difficulty for:</p>
+<ul>
+<li><p>Emotion processing</p></li>
+<li><p>Self-agency</p></li>
+<li><p>Attention</p></li>
+<li><p>Interoception</p></li>
+<li><p>Inference.</p></li>
+</ul></li>
+<li><p>Begins to explain the pathophysiology of FND.</p></li>
+<li><p>Prediction error are central to maintenance.</p></li>
+<li><p>Higher arousal states more akin to paroxysmal symptoms.</p></li>
+<li><p>Difficulties with emotion processing (e.g., panic without panic).</p></li>
+<li><p>Helps to explain patients who don’t identify as distressed (e.g., anx/dep).</p></li>
+<li><p>Difficulties with interoception (e.g., seeming but not feeling anxious).</p></li>
+</ul>
+<aside class="notes">
+<p>The different symptoms of FND arise from one or a combination of specific abnormal constructs. For example, paroxysmal functional movements are perceived as involuntary by patients due to abnormalities in the construct of agency (Figure 1B). Other constructs in FND include impairments in emotion processing, attention, interoception, predictive processing/inference, and their interactions.</p>
+<ul>
+<li><p>Emotion processing:</p>
+<ul>
+<li>emotional reactivity, heightened arousal and avoidance, impaired top-down emotion regulation, amplification of symptoms during negatively valenced or psychologically-threatening mood states (eg, panic, shame), deficits in emotional awareness (eg, alexithymia), aberrant salience processing.</li>
+</ul></li>
+<li><p>Self-Agency:</p>
+<ul>
+<li>Self-agency reflects a person’s belief that he or she is the agent of the action or thought. Sense of causality between predicted movements and movements occurred. Patients with FND have movements that lack self-agency and are experienced as involuntary (TPJ).</li>
+</ul></li>
+<li><p>Attention:</p>
+<ul>
+<li><p>Hypervigilance to symptoms (fronto parietal network)</p></li>
+<li><p>meta-analytic evidence indicates overall greater activation in fronto-parietal networks, as well as in limbic regions such as the amygdala, in FND patients vs controls.</p></li>
+</ul></li>
+<li><p>Interoception:</p>
+<ul>
+<li><p>Interoception refers to the process by which the nervous system senses, interprets, and integrates internal bodily signals, providing a moment-by-moment mapping of the body’s internal landscape across conscious and unconscious levels.</p></li>
+<li><p>It is important for monitoring the internal state of the body, predicting future bodily states, and informing self-regulatory actions.</p></li>
+<li><p>Mechanistically, interoception is conceptualized as a bidirectional process between the brain and body, with feedback and feedforward loops leading to an internal representation of the body.</p></li>
+<li><p>Inference (predict processing)</p></li>
+<li><p>Over time, when the observed information deviates from what is predicted, the generative model is updated through learning.</p></li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside class="notes">
+<p>- panic without panic: Goldstein and Mellers, for example, found that patients with PNES reported more somatic symptoms of anxiety during their attacks than patients with epilepsy, although they did not seem to experience subjectively higher levels of anxiety during their seizures.</p>
+<p>- First, predictions of the future are continually generated within the brain: based on previous life experiences, an array of parallel predictive simulations are computed that all come with a certain probability. If the prediction with the highest probability is confirmed by incoming sensory input, it becomes a perception, otherwise this results in a prediction error. Prediction errors, the second principle, are the mismatch between anticipated and actual sensory input, and are used to update and improve subsequent predictions.</p>
+<p>To perform allostasis efficiently, the system needs to anticipate, sense and integrate signals originating from within the body made available by interoception: the brain’s moment-to-moment modelling of the internal physiological state of the body. The interoceptive model works in the service of allostasis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="treatment-approaches" class="title-slide slide level1 center" data-background-color="#57342d" style="text-align: center; padding: 200px 0;">
+<h1>Treatment Approaches</h1>
+
+</section>
+
+<section id="treatments" class="slide level2">
+<h2>Treatments</h2>
+<h3 id="good-news">Good news:</h3>
+<ul>
+<li>Growing evidence that FND can be successfully treated <span class="emoji" data-emoji="partying_face">🥳</span></li>
+</ul>
+<h3 id="bad-news">Bad news:</h3>
+<ul>
+<li>Provisions for treating are patchy and unclear <span class="emoji" data-emoji="confused">😕</span></li>
+</ul>
+</section>
+<section id="what-treatment-is-indicated" class="slide level2">
+<h2>What Treatment is Indicated?</h2>
+<ul>
+<li><p>It depends on the person.</p></li>
+<li><p>Heterogeneity requires idiosyncratic approach.</p></li>
+<li><p>For many patients, treatment will require MDT input.</p></li>
+<li><p>Clinicians with familiarity in FND.</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>There will often (but not always) be a role for psychology in targeting behavioural cycles that maintain the symptoms (e.g., hyper vigilance, negative thoughts, safety behaviours).</li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Limit in experience can limit effectiveness</p></li>
+<li><p>Input from physio, OT, SaLT should be appropriately selected based on symptom profile.</p></li>
+<li><p>Very seldom that services available with multi-disciplinary input.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="neurosymptoms-treatment-formulator" class="slide level2" data-background-color="white">
+<h2>NeuroSymptoms: Treatment Formulator</h2>
+<p>Support patients to use the <a href="https://formulation.neurosymptoms.org">newly developed tool</a> from neurosymptoms.org</p>
+<p><img data-src="files/img/formulator.png" width="1408" height="900"></p>
+<aside class="notes">
+<ul>
+<li><p>Fantastic resource.</p></li>
+<li><p>Allow patients to learn about the diagnosis and get more information.</p></li>
+<li><p>Learn about the various symptoms of FND; select the pertinent ones; and consider missed ones.</p></li>
+<li><p>Gives a tentative set of suggestions of what type of help is likely to be needed.</p></li>
+<li><p>Beings to make suggestions about what some of the causes might be.</p></li>
+<li><p>CAVEAT THIS IS NOT A SUBSTITUTE FOR TREATMENT.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="health-provision" class="slide level2">
+<h2>Health Provision</h2>
+<p>Need to move away from services only being able to provide single/multi disciplinary approaches.</p>
+
+<img data-src="files/img/mdt-input.png" class="r-stretch quarto-figure-center"><p class="caption">Take from https://www.totalcommunication.com</p><aside class="notes">
+<ul>
+<li><p>Important that health services are set up right</p></li>
+<li><p>Tend to be referred from neurology for psychology. Only right for a proportion of people.</p></li>
+<li><p>Occasionally patients also have access to other input; often not skilled/experienced in FND.</p></li>
+<li><p>Ideally skilled and experienced clinicians working together.</p></li>
+</ul>
+<p><strong>Intradisciplinary:</strong> working within a single discipline.</p>
+<p><strong>Crossdisciplinary:</strong> viewing one discipline from the perspective of another.</p>
+<p><strong>Multidisciplinary:</strong> people from different disciplines working together, each drawing on their disciplinary knowledge.</p>
+<p><strong>Interdisciplinary:</strong> integrating knowledge and methods from different disciplines, using a real synthesis of approaches.</p>
+<p><strong>Transdisciplinary:</strong> creating a unity of intellectual frameworks beyond the disciplinary perspectives.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="role-of-psychology" class="slide level2">
+<h2>Role of Psychology</h2>
+<ul>
+<li><p>Potentially suited to help all FND variants (won’t be necessary for all).</p></li>
+<li><p>Co-morbidities needs to be accounted for.</p></li>
+<li><p>Treating underlying and potentially long-standing distress (e.g., anxiety, depression, trauma).</p></li>
+</ul>
+
+<img data-src="files/img/smoke-not-fire.jpg" width="400" class="r-stretch quarto-figure-center"><aside class="notes">
+<ul>
+<li><p>The paroxysmal role fairly well suited to psychological interventions (e.g., BT, CBT).</p></li>
+<li><p>Otherwise may need to be team input.</p></li>
+<li><p>MH should be treated irrespective of FND.</p></li>
+<li><p>Some people with lots of health and MH comorbidities benefit from focused work on FND.</p></li>
+<li><p>Some people need to work on the things underlying, which may be maintaining the FND.</p></li>
+<li><p>For some people: If you spend time focusing on the smoke (core FND) but don’t work on the underlying distress maintaining then treatment might not be effective and patients may relapse.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-evidence-base7" class="slide level2">
+<h2>The Evidence Base?<sup>1</sup></h2>
+<ul>
+<li><p><strong>Psychology</strong></p>
+<ul>
+<li><p>Few RCTs.</p></li>
+<li><p>Systematic reviews support psychotherapy for FND <a href="https://jnnp.bmj.com/content/jnnp/92/1/36.full.pdf">(Gutkin et al., 2021)</a>.</p></li>
+<li><p>47% patients achieve seizure freedom <a href="https://pubmed.ncbi.nlm.nih.gov/28063373/">(Carlson &amp; Perry, 2017)</a>.</p></li>
+<li><p>Recent RCT however found no significant change for seizure frequency <a href="https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30128-0/fulltext">(CODES, 2020)</a>.</p></li>
+</ul></li>
+<li><p><strong>Neuro-Stimulation</strong></p>
+<ul>
+<li>Small but emerging evidence base (<a href="https://www.sciencedirect.com/science/article/pii/S2589986421000757">Gonsalvez et al., 2021</a> for a review).</li>
+</ul></li>
+<li><p><strong>Physiotherapy</strong></p>
+<ul>
+<li>Preliminary feasibility for physiotherapy (<a href="https://neuro.psychiatryonline.org/doi/full/10.1176/appi.neuropsych.19030068">Maggio et al., 2019</a>).</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>Much of the evidence is on functional seizures.</li>
+<li>Carlson 47% = seizure free; 82% = seizure reduction of at least 50%.</li>
+<li>Not lots known about who doesn’t respond; or long-term follow up.</li>
+<li>non-invasive brain stimulation techniques (NIBS) may be effective
+<ul>
+<li><p>Transcranial magnetic stimulation (TMS)</p>
+<p>Ttranscranial direct current stimulation (tDCS)&nbsp;</p></li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><ol class="aside-footnotes"><li id="fn7"><p>See <a href="https://pubmed.ncbi.nlm.nih.gov/35339813/">Beal et al (2022</a>) for a review of the area.</p></li></ol></aside></section>
+<section id="section-1" class="slide level2" data-background-color="white">
+<h2></h2>
+</section>
+<section id="what-to-measure" class="slide level2" data-background-color="white">
+<h2>What to Measure?</h2>
+<ul>
+<li><p>Not just about the core FND symptoms.</p></li>
+<li><p>7+ outcome measures used per study (unpublished study).<sup>1</sup></p></li>
+<li><p>Core outcome battery and specific tools still lacking (for now).</p></li>
+</ul>
+<p>Taken from <a href="https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128">Nicholson (2020)</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/outcome.domains.jpg" alt="Taken from Nicholson (2020)" width="600"></p>
+</figure>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn8"><p>Results being prepared for publication.</p></li></ol></aside></section>
+<section id="change-across-other-measures" class="slide level2" data-background-color="white">
+<h2>Change Across Other Measures</h2>
+<p>In all conditions treatment remains effective (approx <em>d</em> = .5)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="files/img/forest.png" width="1300" height="600"></p>
+<p></p><figcaption>Preliminary results being prepared for publication.</figcaption><p></p>
+</figure>
+</div>
+<aside class="notes">
+<ul>
+<li><p>Preliminary findings being prepared for publication.</p></li>
+<li><p>There is hope: Functioning.</p></li>
+<li><p>Long and behavioural treatments may have promise.</p></li>
+<li><p>No evidence yet for schema therapy, mentalisation or CAT.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="acceptability" class="slide level2">
+<h2>Acceptability</h2>
+<ul>
+<li><p>Some patients ambivalent to treatment.</p></li>
+<li><p>Doesn’t always fit with patient view of difficulties.</p></li>
+<li><p>Comes following a long journey.</p></li>
+<li><p>High expectations.</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><p>Psychology referral for physical symptoms. People often really unsure. Some drop out. Some don’t enter treatment.</p></li>
+<li><p>Desperation. last hope. High expectations.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="how-do-treatments-work" class="slide level2">
+<h2>How do Treatments Work?</h2>
+<ul>
+<li><p>Multi-faceted.</p></li>
+<li><p>Relevant mechanisms of change across all therapeutic approaches.</p>
+<ul>
+<li><p>Psycho-education likely to be important.</p></li>
+<li><p>Ample evidence that CBT helps in the short term.</p></li>
+<li><p>Trauma focused work important (if needed).</p></li>
+</ul></li>
+<li><p>Approach should be tailored (see <a href="https://reader.elsevier.com/reader/sd/pii/S2589986421000526?token=FBD7726AA04740D1B1F13FC0941A51D721F2B10B05135195FFD8165A8319F9015EF5686728A80EB1EA21793DF05A8CA5&amp;originRegion=eu-west-1&amp;originCreation=20221102074041">Myers et al., 2021</a> for a guide).</p></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><p>Psychoeducation crucial.</p>
+<ul>
+<li><p>Recognising triggers and risk factors.</p></li>
+<li><p>Heightening interoceptive capacity.</p></li>
+<li><p>Strategies for circumventing (e.g., breathing, grounding)</p></li>
+<li><p>Dealing with safety behaviours.</p></li>
+</ul></li>
+<li><p>Evidence that CBT helps in the short term.</p>
+<ul>
+<li>Targeting catastrophic thinking.</li>
+</ul></li>
+<li><p>Trauma focused work important IF needed.</p>
+<ul>
+<li>Big questions about who should provide this.</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ways-to-intervene" class="slide level2">
+<h2>Ways to Intervene</h2>
+
+<img data-src="files/img/ICM.example.1.png" class="r-stretch"><aside class="notes">
+<p>Case example.</p>
+<ul>
+<li><p>Try to complete with patient over first few sessions.</p></li>
+<li><p>What are the risk factors, triggers, what formed the scaffold, what does the patient notice before he or she has a seizure. How do you recover?</p></li>
+<li><p>Just the knowledge of this and things start to change,</p></li>
+<li><p>Diane:</p>
+<ul>
+<li><p>We have worked out the triggers. Don’t always lead to a seizure.</p></li>
+<li><p>Inhibitory dysfunction to understand why it is only certain times that the seizures happen.</p></li>
+<li><p>Encouraging self-monitoring or body and arousal been able to deepen identification of when one is close. WARNING SIGNS (racing thoughts, twitching arm)</p></li>
+<li><p>Overtime becomes more automatic.</p></li>
+</ul></li>
+<li><p>Only applies to Diane.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ways-to-intervene-1" class="slide level2">
+<h2>Ways to Intervene</h2>
+
+<img data-src="files/img/ICM.example.2.jpeg" class="r-stretch"></section>
+<section id="what-else-can-help" class="slide level2">
+<h2>What else can help</h2>
+<ul>
+<li><p>Good medical advice</p></li>
+<li><p>Guidance on how to respond to seizures.</p></li>
+<li><p>Support on how to recognise (or distinguish from epileptic seizures).</p></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="files/img/wristband.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="files/img/cards.png"></p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Changes might look and feel uncomfortable/ unpleasant but are not causing immediate harm.</li>
+<li>Brain activity remains the same.</li>
+<li>Having an episode is not caused by and does not cause long-term internal damage.</li>
+<li>Main concern is risk of falls.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tips-for-acute-management" class="slide level2" data-background-color="white">
+<h2>Tips for Acute Management</h2>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tips</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p>Maintain a calm, quiet environment</p></li>
+<li><p>Give me space, speak to me calmly</p></li>
+<li><p>Tell other people it is NOT a medical emergency</p></li>
+<li><p>Help to re-orientate (e.g.&nbsp;tell the person where and who they are, what is happening).</p></li>
+<li><p>Offer water.</p></li>
+<li><p>Encourage noticing what they can see/hear (e.g.&nbsp;count the number of circles/ red things).</p></li>
+<li><p>Maintain a calm environment.</p></li>
+<li><p>Encourage focus on slow, deep breaths.</p></li>
+<li><p>Find out if there is someone who can help them to get home/ to a safe place?</p></li>
+<li><p>Provide support to friends/ family.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Avoid</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Do not attempt to make a differential diagnosis. If information about the diagnosis is not available, follow epilepsy guidelines.</li>
+<li>Give me medication.</li>
+<li>Touch me (unless to protect my head).</li>
+<li>Crowd or stand over me.</li>
+<li>let there be more then one person nearby.</li>
+<li>Try to bring me “out of it”.</li>
+<li>Restrain me.</li>
+<li>Time the episode.</li>
+<li>Take me to hospital, unless I have a significant injurt that needs immediate medical att.</li>
+<li>try to lift the person up or try to get them moving before they are ready.</li>
+<li>Ask lots of questions.</li>
+<li>Say things such as:
+<ul>
+<li><p>“You are (just) stressed”</p></li>
+<li><p>“You do not have…”</p></li>
+<li><p>“It’s nothing to worry about”</p></li>
+<li><p>“You can control this”</p></li>
+<li><p>“Stop doing this”</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-warning callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p>People with NEAD may still be able to hear (unlike NEAD</p></li>
+<li><p>idea is that the person gets to the place where they can manage it themselves (not have to go to hospital).</p></li>
+<li><p>No need to have to get people to end it quickly.</p></li>
+<li><p>May be tired and stressed and therefore at higher risk of further episodes.</p></li>
+<li><p>not about differential dx but rather bearing this information in mind.</p></li>
+<li><p>If you have suspicions or evidence of NEAD then pass it on during your handover to make sure they get the appropriate care.</p></li>
+<li><p>gently re-orienting and offering as they may be confused or be finding it difficult to communicate.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="stigma" class="slide level2">
+<h2>Stigma</h2>
+
+<img data-src="files/img/fnd-hope-stigma.jpg" class="r-stretch"></section>
+<section id="resources" class="title-slide slide level1 center" data-background-color="#57342d" style="text-align: center; padding: 200px 0;">
+<h1>Resources</h1>
+
+</section>
+
+<section id="websites" class="slide level2">
+<h2>Websites</h2>
+<h3 id="fnd-hope">FND Hope</h3>
+<ul>
+<li><p>FND charity</p></li>
+<li><p>Lots of helpful information and resources for patients.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.fndhope.org"><img data-src="files/img/fndhope.png" width="200"></a></p>
+</figure>
+</div>
+<h3 id="fnd-society">FND Society</h3>
+<ul>
+<li><p>Professional network for FND</p></li>
+<li><p>High quality teaching and educational material.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.https://www.fndsociety.org/"><img data-src="files/img/fnd-soci.png"></a></p>
+</figure>
+</div>
+<h3 id="manchester-neurosciences-salford-nead-service">Manchester Neurosciences (Salford NEAD service)</h3>
+<ul>
+<li><p>NEAD service website</p></li>
+<li><p>Information and clinical resources for patients and clinicians.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.manchesterneurosciences.com/departments/neuropsychology/nead"><img data-src="files/img/mccn.png"></a></p>
+</figure>
+</div>
+<h3 id="neurosymptoms.org">Neurosymptoms.org</h3>
+<ul>
+<li><p>Informational website for patients and professions</p></li>
+<li><p>Lots of high quality resources and information sheets</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://neurosymptoms.org/"><img data-src="files/img/neuro-symptoms.png" width="200"></a></p>
+</figure>
+</div>
+</section>
+<section id="books" class="slide level2">
+<h2>Books</h2>
+<h3 id="patient-experiences-book">Patient Experiences Book</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.amazon.co.uk/Our-Words-Personal-Non-Epileptic-Brainstorms/dp/0190622776"><img data-src="files/img/in-our-words.jpg"></a></p>
+</figure>
+</div>
+<h3 id="clinician-experiences-book">Clinician Experiences Book</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.amazon.co.uk/Non-Epileptic-Seizures-Our-Experience-Professionals/dp/0190927755"><img data-src="files/img/in-our-experience.jpg"></a></p>
+</figure>
+</div>
+<h3 id="handbook-of-clinical-neurology">Handbook of Clinical Neurology</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.elsevier.com/books/functional-neurologic-disorders/hallett/978-0-12-801772-2?country=GB&amp;format=print&amp;utm_source=google_ads&amp;utm_medium=paid_search&amp;utm_campaign=ukshopping&amp;gclid=EAIaIQobChMIt_yujOGA-wIVQ7DtCh0MJA2zEAQYASABEgIV5vD_BwE&amp;gclsrc=aw.ds"><img data-src="files/img/handbook.jpeg"></a></p>
+</figure>
+</div>
+<h3 id="functional-movement-disorders-textbook">Functional Movement Disorders Textbook</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.amazon.co.uk/Functional-Movement-Disorder-Interdisciplinary-Case-Based/dp/3030864944/ref=asc_df_3030864944/?tag=googshopuk-21&amp;linkCode=df0&amp;hvadid=570407791907&amp;hvpos=&amp;hvnetw=g&amp;hvrand=10263867168465980964&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9046662&amp;hvtargid=pla-1433280131266&amp;psc=1&amp;th=1&amp;psc=1"><img data-src="files/img/fmd_book.jpg"></a></p>
+</figure>
+</div>
+</section>
+<section id="thanks-for-listening" class="slide level2" style="text-align: center; padding: 200px 0;">
+<h2>Thanks for Listening !</h2>
+</section>
+<div class="footer footer-default">
+<p>FND for North Staffs Combined Healthcare</p>
+</div>
+
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="index_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="index_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="index_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="index_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: false,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'slow',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        target: function(trigger) {
+          return trigger.previousElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        setTimeout(function() {
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto-reveal',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+        tippyHover(ref, function() {
+          var popup = window.document.createElement('div');
+          cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    });
+    </script>
+    
+
+</body></html>

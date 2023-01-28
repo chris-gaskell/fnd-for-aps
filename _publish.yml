@@ -1,0 +1,4 @@
+- source: index.qmd
+  netlify:
+    - id: 9e1ab63c-1de8-4418-bb62-a073d734d1ca
+      url: 'https://fnd-for-combined.netlify.app'

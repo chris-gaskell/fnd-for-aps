@@ -1,0 +1,14 @@
+---
+title: "Functional Neurological<br> Disorders"
+author: "Dr. Chris Gaskell & Dr. Abi Methley"
+format:
+  revealjs:
+    scrollable: true
+---
+
+## Footnote and Ordered List Placement
+
+1.  A point
+2.  And another[^1]
+
+[^1]: Footnotes are always helpful
