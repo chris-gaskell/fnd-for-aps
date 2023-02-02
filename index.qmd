@@ -7,11 +7,11 @@ format:
     include-in-header: 
       text: |
         <meta name="github-repo" content="chris-gaskell/fnd-for-combined"/>
-        <meta name="twitter:title" content="An Introduction to Working with Functional Neurological Disorders"/>
-        <meta name="twitter:description" content="An Introduction to Working with Functional Neurological Disorders"/>
+        <meta name="twitter:title" content="An Introduction with Functional Neurological Disorders"/>
+        <meta name="twitter:description" content="An Introduction to Functional Neurological Disorders"/>
         <meta name="twitter:url" content="https://fnd-for-aps.netlify.app"/>
-        <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-combined/blob/master/twitter-pic.jpg?raw=true"/>
-        <meta name="twitter:image:alt" content="Title slide of An Introduction to Working with Functional Neurological Disorders presented to Midlands Assistant Psycholgoists Group Meeting, 2023."/>
+        <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-aps/blob/master/twitter-pic.jpg?raw=true"/>
+        <meta name="twitter:image:alt" content="Title slide of An Introduction to Functional Neurological Disorders presented to North Staffs Aspiring Psychologist Group Meeting, 23/03/2023."/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="@chrisgaskell92/>
         <meta name="twitter:site" content="@chrisgaskell92"/>
@@ -26,7 +26,7 @@ format:
     chalkboard: true
     author: "Dr. Chris Gaskell"
     institute: "Neuropsychology <br> North Staffs Combined Healthcare"
-    footer: "FND for Midlands Aspriring Psychologists"
+    footer: "FND for North Staffs Aspiring Psychologists"
     transition: slide
     background-transition: fade
     transition-speed: slow
@@ -41,7 +41,7 @@ format:
 *for:*
 :::
 
-**Midlands Aspiring Psychologists Group**
+**North Staffs Aspiring Psychologist Group**
 
 ::: {style="text-align: center"}
 [https://fnd-for-combined.netlify.app](https://fnd-for-combined.netlify.app){.uri style="text-align: center"}
@@ -51,7 +51,7 @@ format:
 
 ------------------------------------------------------------------------
 
-![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" fig-align="center" width="240"}
+![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 70%; box-shadow: 0 0 30px black;" fig-align="left" width="240"}
 
 ### Dr. Chris Gaskell
 
@@ -73,19 +73,21 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   Not about emergency treatment response
 
--   We are learning too :student:
+-   I am learning too[^1] :student:
 
-## Contents {background-color="#57342d"}
+[^1]: Acknowledgements: to past colleagues Dr Mary King & Abi Methley for their prior support in developing these slides.
+
+## Contents {background-color="#01364C"}
 
 ::: columns
 ::: {.column width="50%"}
--   Background Information
+-   Background
 
--   Identification and Diagnosis
+-   Symptoms & Language
 
--   Explanatory Models
+-   Theory
 
--   Treatment Approaches
+-   Treatments
 
 -   Resources
 :::
@@ -96,7 +98,7 @@ North Staffordshire Combined Healthcare NHS Trust
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# What is FND? {background-color="#57342d"}
+# Background {background-color="#01364C"}
 :::
 
 ------------------------------------------------------------------------
@@ -107,17 +109,19 @@ North Staffordshire Combined Healthcare NHS Trust
 Video by Massachusetts General Hospital
 :::
 
-## Terminology?
+## Terminology
 
--   ***FND*** = Functional Neurological Disorder.
+-   **FND** = Functional Neurological Disorder.
 
     -   Umbrella Diagnosis :umbrella:.
 
 **Sub-types include:**
 
--   *FS*= Functional Seizures (aka *NEAD* \[Non Epileptic Attack Disorder\] and others).
+-   **FDS**= Functional Dissociative Seizures (aka *NEAD* \[Non Epileptic Attack Disorder\] and others).
 -   **FMD** = Functional Movement Disorder.
+-   **FCD** = Functional Cognitive Disorder.
 -   Functional Stroke.
+-   Functional Tics.
 -   And many others.
 
 ::: notes
@@ -169,31 +173,31 @@ Video by Massachusetts General Hospital
 ## Videos of FND
 
 ::: panel-tabset
-## fs 1
+## FDS 1
 
 {{< youtube MA1EYAg9y5k >}}
 
-## fs 2
+## FDS 2
 
 {{< youtube MA1EYAg9y5k >}}
 
-## fs 3
+## FDS 3
 
 {{< youtube i_1U9lNi314 >}}
 
-## fs 4
+## FDS 4
 
 {{< youtube MdOCo4hD4zI >}}
 
-## jerks
+## Jerks
 
 {{< youtube DH7jGSoaORk >}}
 
-## walk
+## FMD
 
 {{< youtube SRv1WaovyuE >}}
 
-## tics
+## Tics
 
 {{< youtube xCIXhnxySqg >}}
 :::
@@ -278,17 +282,17 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 -   1980s: Hysteria retired as a term within the US.
 :::
 
-## What Do We Mean By Functional?
+## Functional vs. Organic
 
 ::: columns
 ::: {.column width="50%"}
--   Impairment of function.
+-   Functional = Impairment of function.
 
 -   **Not** suggesting a behavioural or intentional component.
 
--   Functional vs. Organic debates are outdated and inaccurate dualism.[^1]
+-   Functional vs. Organic debates are outdated and inaccurate dualism.[^2]
 
--   Can a person be non-organic?[^2]
+-   Can a person be non-organic?[^3]
 
 -   Software problem vs. hardware problem?
 :::
@@ -298,9 +302,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^1]: Not related to the behavioural notion of 'functional analysis'
+[^2]: Not related to the behavioural notion of 'functional analysis'
 
-[^2]: See excellent video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) for more on this.
+[^3]: See this video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) or the excellent review paper on 'functional' vs 'organic'
 
 ::: notes
 -   (i.e., not relating to or derived from living matter).
@@ -308,13 +312,13 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 -   What organic symptoms are not in some way mediated by psychological processes? and what repeated motor patterns or neuronal activity can not lead to structural change?
 :::
 
-## The Case For An Involuntary Condition
+## The Case For An Involuntary Condition {visibility="hidden"}
 
 ::: columns
 ::: {.column width="50%"}
--   Neuroimaging in FND is an emerging area[^3].
+-   Neuroimaging in FND is an emerging area[^4].
 
--   Neurological differences shown in FND[^4].
+-   Neurological differences shown in FND[^5].
 
 -   FMRI studies show differences within people while experiencing vs volunteering tremor ([Voon et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/))
 
@@ -328,16 +332,16 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^3]: Figure taken from from Drane et al (2020)
+[^4]: Figure taken from from Drane et al (2020)
 
-[^4]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
+[^5]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
 
 ::: notes
 Compared to brain imaging in other neuropsychiatric disorders, FND research remains in its early stages (e.g., no samples \> 100 patients, few findings replicated, and even fewer studies tied to treatments).notes
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Diagnosis, Prevalence & Terminology {background-color="#57342d"}
+# Diagnosis, Prevalence & Terminology {background-color="#01364C"}
 :::
 
 ## How Common Is FND?
@@ -493,7 +497,7 @@ This is everyone!
 ::: callout-important
 ## Important Notes around Diagnosis in FND
 
--   Based on positive clinical signs/symptoms[^5].
+-   Based on positive clinical signs/symptoms[^6].
 
 -   Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.
 
@@ -504,7 +508,7 @@ This is everyone!
 -   Following diagnosis, new symptoms are frequently (and wrongfully) dismissed.
 :::
 
-[^5]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
+[^6]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
 ::: notes
 -   For too often been a diagnosis of exclusion
@@ -688,11 +692,11 @@ Often leads to problems with:
 -   (although 48% in same year).
 :::
 
-## Explaining the Diagnosis
+## Explaining the Diagnosis {visibility="hidden"}
 
 {{< youtube Wz0m69y2s_0 >}}
 
-## Tips for Explaining the Diagnosis {background-color="white"}
+## Tips for Explaining the Diagnosis {visibility="hidden"} {background-color="white"}
 
 ::: {.callout-tip style="border: black; background: #f5f5f5 5px center/3em no-repeat;"}
 ## Tips
@@ -758,11 +762,11 @@ Many terms have been used:
 -   Some terms hold on to pejorative views.
 :::
 
-## Avoid Pejorative Terms
+## Avoid Pejorative Terms {visibility="hidden"}
 
 ::: columns
 ::: {.column width="50%"}
-Much debate regarding preferred term[^6].
+Much debate regarding preferred term[^7].
 
 Communication has a significant impact on:
 
@@ -782,7 +786,7 @@ Be led by the individual
 :::
 :::
 
-[^6]:
+[^7]:
     ::: {.column width="50%"}
     (see [Stone et al., 2003](https://www.sciencedirect.com/science/article/pii/S1059131103000554%22), [Barron., 2019](https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf), FND Society., 2020, & [La France., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/).
     :::
@@ -848,7 +852,7 @@ Do not mistake symptoms for factitious/malingering just because it doesn't fit w
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Explanatory Models {background-color="#57342d"}
+# Theory {background-color="#01364C"}
 :::
 
 ## The Mind Body Link
@@ -888,19 +892,15 @@ FND also happens through this Mind-Body link.
 
 Fight/flight/freeze response - evolutionary based fear response that is adaptive for survival.
 
-Freezing is one of the main defensive threat reactions across species (Roelofs, 2017; Rockliffe-Fidler & Mark Willis, 2018).
+Freezing is one of the main defensive threat reactions across species
 
-![](files/img/fight-flight-freeze.jpg)
+![](files/img/fight-flight-freeze.jpg){fig-align="center"}
 
--   Fight-flight theory. sympathetic nervous system.
+-   Parasympathetic branch of the nervous system.
 
--   Parasymathetic branch of the NS.
+-   A means of responding to a threat or a trigger (at times adaptive)
 
--   Sometimes it can be an adaptive response.
-
--   A means of responding to a threat or a trigger. mammals.
-
-## Explanatory Models
+## Explanatory Models {visibility="hidden"}
 
 1.  Trauma & conversion.
 2.  Bio-psycho-social models.
@@ -923,6 +923,8 @@ Freezing is one of the main defensive threat reactions across species (Roelofs, 
 -   Does not consistently explain aetiology or onset.
 
 -   Not always helpful to ask.
+
+-   Idea of conversion may be relevant for some but unlikely all.
 
 ::: notes
 -   Trauma does not explain why one patient gets a seizure and another paralysis
@@ -963,7 +965,7 @@ Our results show that the rate of childhood and adult stressful life events and 
 "13 studies that specifically ascertained that the participants had not had either severe life events or any subtype of maltreatment all found a proportion of patients with functional neurological disorder reporting no stressor."
 :::
 
-## Professional Beliefs {background-color="white"}
+## Professional Beliefs {visibility="hidden"} {background-color="white"}
 
 Taken from [Whitehead et al., 2012](https://core.ac.uk/download/pdf/81139313.pdf)
 
@@ -971,7 +973,7 @@ Taken from [Whitehead et al., 2012](https://core.ac.uk/download/pdf/81139313.pdf
 
 ------------------------------------------------------------------------
 
-## Trauma & FND Onset {background-color="white"}
+## Trauma & FND Onset {visibility="hidden"} {background-color="white"}
 
 Taken from [Keynejad, 2021](https://jnnp.bmj.com/content/90/7/813)
 
@@ -1033,7 +1035,7 @@ Taken from [Anzellotti et al., 2020](https://www.frontiersin.org/articles/10.338
 
 {{< youtube UrY69Y-OFZY >}}
 
-## Integrated Cognitive Model {background-color="white"}
+## Integrated Cognitive Model {visibility="hidden"} {background-color="white"}
 
 Taken from [Reuber & Brown (2017)](https://www.seizure-journal.com/article/S1059-1311(16)30222-9/fulltext)
 
@@ -1057,7 +1059,7 @@ Taken from: [Drane et al (2020).](https://www.asuemotionlab.com/wp-content/uploa
 :::
 :::
 
-## Emotional Processing Model
+## Emotional Processing Model {visibility="hidden"}
 
 -   Based on new insights (emotion processing and imaging).
 
@@ -1124,10 +1126,10 @@ To perform allostasis efficiently, the system needs to anticipate, sense and int
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Treatment Approaches {background-color="#57342d"}
+# Treatment Approaches {background-color="#01364C"}
 :::
 
-## Treatments
+## Treatments {visibility="hidden"}
 
 ### Good news:
 
@@ -1179,7 +1181,7 @@ Support patients to use the [newly developed tool](https://formulation.neurosymp
 -   CAVEAT THIS IS NOT A SUBSTITUTE FOR TREATMENT.
 :::
 
-## Health Provision
+## Health Provision {visibility="hidden"}
 
 Need to move away from services only being able to provide single/multi disciplinary approaches.
 
@@ -1229,9 +1231,9 @@ Need to move away from services only being able to provide single/multi discipli
 -   For some people: If you spend time focusing on the smoke (core FND) but don't work on the underlying distress maintaining then treatment might not be effective and patients may relapse.
 :::
 
-## The Evidence Base?[^7]
+## The Evidence Base?[^8]
 
-[^7]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
+[^8]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
 
 -   **Psychology**
 
@@ -1261,23 +1263,21 @@ Need to move away from services only being able to provide single/multi discipli
         Ttranscranial direct current stimulation (tDCS) 
 :::
 
-##  {background-color="white"}
-
-## What to Measure? {background-color="white"}
+## What to Measure? {visibility="hidden"} {background-color="white"}
 
 -   Not just about the core FND symptoms.
 
--   7+ outcome measures used per study (unpublished study).[^8]
+-   7+ outcome measures used per study (unpublished study).[^9]
 
 -   Core outcome battery and specific tools still lacking (for now).
 
-[^8]: Results being prepared for publication.
+[^9]: Results being prepared for publication.
 
 Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128)
 
 ![](files/img/outcome.domains.jpg){alt="Taken from Nicholson (2020)" fig-align="center" width="600"}
 
-## Change Across Other Measures {background-color="white"}
+## Change Across Other Measures {visibility="hidden"} {background-color="white"}
 
 In all conditions treatment remains effective (approx *d* = .5)
 
@@ -1400,7 +1400,7 @@ Case example.
 -   Main concern is risk of falls.
 :::
 
-## Tips for Acute Management {background-color="white"}
+## Tips for Acute Management {visibility="hidden"} {background-color="white"}
 
 ::: {.callout-tip style="border: black; background: #f5f5f5 5px center/3em no-repeat;" collapse="true"}
 ## Tips
@@ -1468,7 +1468,7 @@ Case example.
 -   gently re-orienting and offering as they may be confused or be finding it difficult to communicate.
 :::
 
-## Stigma
+## Stigma {visibility="hidden"}
 
 ![](files/img/fnd-hope-stigma.jpg)
 

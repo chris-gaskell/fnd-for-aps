@@ -115,7 +115,7 @@ hr {
   content:            '';
   display:            block;
   border:             none;
-  background-color:   red;
+  background-color:   --DarkBlue;
   height:             0.08em;
 }
 
@@ -348,7 +348,7 @@ opacity: 0.85;}
 
 .remark-slide-number .progress-bar {
   height: 100%;
-  background-color: var(--my-pink);
+  background-color: var(--DarkBlue);
 }
 
 /*-- EXPERIMENTAL -----------------------------------------------------------*/
@@ -487,7 +487,7 @@ code.r.hljs.remark-code:hover {
 
 .remark-slide-number .progress-bar {
   height: 100%;
-  background-color: orange;
+  background-color: --DarkBlue;
 }
 
 li:not(:last-child) {
