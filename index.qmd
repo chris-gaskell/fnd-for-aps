@@ -1,6 +1,4 @@
 ---
-title: "Functional Neurological<br> Disorders"
-author: "Dr. Chris Gaskell & Dr. Abi Methley"
 from: markdown+emoji
 format:
   revealjs:
@@ -19,8 +17,6 @@ format:
     scrollable: true
     incremental: false
     theme: [simple, custom.scss]
-    title: "Functional Neurological<br> Disorders"
-    subtitle: "Teaching for Aspiring Psychologists"
     preview-links: false
     preload-iframes: false
     chalkboard: true
@@ -33,6 +29,7 @@ format:
     footnotes-hover: true
     filters: 
       - designmode
+bibliography: references.bib
 ---
 
 ## An Introduction to Working with Functional Neurological Disorders {style="font-size: 35px; text-align: center;"}
@@ -51,16 +48,23 @@ format:
 
 ------------------------------------------------------------------------
 
-![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 70%; box-shadow: 0 0 30px black;" fig-align="left" width="240"}
+::: columns
+::: {.column width="50%" style="text-align: center"}
+![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" width="240"}
 
 ### Dr. Chris Gaskell
 
-::: {style="font-size: 24px"}
+::: {style="font-size: 24px; text-align: center"}
 Senior Clinical Psychologist
 
 Neuropsychology
 
 North Staffordshire Combined Healthcare NHS Trust
+:::
+
+::: {.column width="50%" style="text-align: center"}
+:::
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -115,7 +119,7 @@ Video by Massachusetts General Hospital
 
     -   Umbrella Diagnosis :umbrella:.
 
-**Sub-types include:**
+**Subtypes include:**
 
 -   **FDS**= Functional Dissociative Seizures (aka *NEAD* \[Non Epileptic Attack Disorder\] and others).
 -   **FMD** = Functional Movement Disorder.
@@ -150,7 +154,7 @@ Video by Massachusetts General Hospital
 
 -   Much push back on terminology from FND charities and specialists around the world.
 
-## Functional Seizures
+## Functional Seizures {visibility="hidden"}
 
 -   One manifestation/constellation of FND.
 
@@ -258,7 +262,8 @@ Classified by [neurosymptoms.org](https://www.neurosymptoms.org/en_GB/symptoms/)
 -   Lots of people presenting to the NEAD service experience other symptoms.
 :::
 
-## Historical Perspectives {background-color="white"}
+## Historical Perspectives {background-color="white"} {visibility="hidden"}
+
 
 Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/article/pii/S2589986421000630)
 
@@ -344,121 +349,7 @@ Compared to brain imaging in other neuropsychiatric disorders, FND research rema
 # Diagnosis, Prevalence & Terminology {background-color="#01364C"}
 :::
 
-## How Common Is FND?
-
-**FND Prevalence:** 50/100000 in the population (Carson, 2016).
-
-**Functional Seizure Prevalence:**
-
--   2-33/100000 (Carson, 2016).
-
--   Recent estimate = 24/100,000 (Norway) [(Villagrán, 2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949) .
-
--   Estimated 20,000 people in the UK.
-
--   8-12% of new presentations to seizure clinics [(Angus-Leppan, 2008)](href=%22https://www.sciencedirect.com/science/article/pii/S1059131108000022).
-
--   11% of seizures presenting to emergency services (Dickson et al., 2017).
-
-::: aside
--   It is difficult to accurately quantify prevalence rates.
-:::
-
--   Difficult to accurately quantify prevalence rates due to:
-
-    -   diagnostic delay
-
-    -   patients being lost to follow-up.
-
--   May not seem common; but patients frequently attend to A&E and psychology services so I will guarantee that pretty much everyone will work with someone at somepoint.
-
-## What Are The Risk Factors For FND?
-
--   **Age:**
-
-    -   Presents across the life span.
-
-    -   Young adults (15--19) most at risk: 59.5 per 100,000. ([Villagrán et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949))
-
--   **Gender:**
-
-    -   Female preponderance = 60-80%.
-
-    -   Disparities less evident in older cohorts (e.g., [Jungilligens, 2021](https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract))
-
--   **Epilepsy:** High rate of co-morbidity.
-
--   **Learning Disabilities:** High rate of co-morbidity ([Rawlings et al., 2021](https://www.sciencedirect.com/science/article/pii/S1059131121002521)).
-
--   **Demographics:**
-
-    -   White and low SES
-
-::: aside
-For a detailed account of risk and aetiological factors see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
-:::
-
-**Age:**
-
--   Modal age of onset is 16. mean and median = 28.
-
--   Age disparity dissipates in late adulthood.
-
-**Epilepsy:**
-
--   12--22% Dual diagnosis (meta-analysis).
-
--   Challenging to diagnose
-
-**LD:**
-
--   Median = 9.4% of comorbid ID was found across eleven PNES cohorts (Rawlings et al., 2021).
-
-**Demographics:**
-
--   Over 50% of all patients live in areas categorised within the highest deprivation quintile
-
--   Over two- thirds of patients being unemployed at the point of seeking treatment for PNES (Goldstein *et al.*, 2019).
-
-## What Are The Risk Factors For FND?
-
--   **Psychiatric Co-morbidity:**
-
-    -   Anxiety and depression.
-
-    -   Interpersonal disorders.
-
-    -   PTSD, Trauma.
-
--   **Health Co-morbidity:**
-
-    -   Pain & Fatigue.
-
-    -   Sleep disturbance.
-
-    -   Migraine.
-
-    -   TBI.
-
-    -   Epilepsy Surgery
-
-::: aside
-For a detailed account of risk and aetiological factor see [Popkirov et al., (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.1684/epd.2019.1107)
-:::
-
--   **PTSD:** 38%
-
--   Norm rather than an exception (Nicholson et al., 2020).
-
--   **Psychiatric conditions:** especially affective, trauma-related and/or dissociative disorders, are typically present in over 50% of most FND samples, with lifetime rates even higher.
-
--   **Personality disorders:** higher rate than the general population. Particularly EUPD and cluster C presentations.
-
--   **Epilepsy surgery:** New onset following surgery (upto 9%).
-
--   **TBI:** Rates vary a lot. Pooled frequency of about 42%
-
-## Who Is Involved in Diagnosis?
+## Who Is Involved in Diagnosis? {visibility="hidden"}
 
 Usually by a Neurologist or Neuropsychiatrist.
 
@@ -532,7 +423,7 @@ Taken from: FND in the emergency department [Finkelstein et al (2021)](https://o
 
 ![](files/img/Stone-movement-table.png){fig-align="center" width="1200" height="1200"}
 
-## Symptoms: Functional Movement {background-color="white"}
+## Symptoms: Functional Movement {background-color="white"} {visibility="hidden"}
 
 {{< youtube BEtLcfikzPI >}}
 
@@ -674,9 +565,7 @@ Difficult at times to distinguish from other conditions.
 
 Often leads to problems with:
 
--   Journey to diagnosis can be very long.
-
-    -   Recent estimate of 3.2 years.
+-   Journey to diagnosis can be very long. When using gold standard assessment (VT) mean duration of 8.4 years (median = 3) ([Kerr et al., 2021](https://reader.elsevier.com/reader/sd/pii/S1059131121000510?token=89B6F73BFDD3927128DB3620BA782BDC2C029A17A0DAE3B74C41E58725B0F2BC506713D8EBD8439C4A829038111E3159&originRegion=eu-west-1&originCreation=20230316115621))
 
 -   Response to functional seizures with seizure protocols (very common, see [Jungilligens et al., 2021](https://jnnp.bmj.com/content/jnnp/early/2021/08/16/jnnp-2021-326443.full.pdf)).
 
@@ -696,7 +585,7 @@ Often leads to problems with:
 
 {{< youtube Wz0m69y2s_0 >}}
 
-## Tips for Explaining the Diagnosis {visibility="hidden"} {background-color="white"}
+## Tips for Explaining the Diagnosis {background-color="white"} {visibility="hidden"}
 
 ::: {.callout-tip style="border: black; background: #f5f5f5 5px center/3em no-repeat;"}
 ## Tips
@@ -825,13 +714,16 @@ Taken from recent [Loewenberger, 2021](https://onlinelibrary.wiley.com/doi/full/
 
 Do not mistake symptoms for factitious/malingering just because it doesn't fit with what your framework.
 
+FND is not Malingering! (see 
+[Edwards et al., 2023](https://www.nature.com/articles/s41582-022-00765-z))
+
 ::: notes
 -   Big take away message = real experience.
 
 -   This is really important because there is a history of people with FND not being believed or been described as "faking".
 :::
 
-## To Clarify {background-color="white"}
+## To Clarify {background-color="white"} {visibility="hidden"}
 
 ::: {.callout-important style="border: black; background: #f5f5f5 5px center/3em no-repeat;"}
 ## Key Points From Part 1
@@ -846,7 +738,7 @@ Do not mistake symptoms for factitious/malingering just because it doesn't fit w
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Time for Coffee
+# Time for Coffee  {visibility="hidden"}
 
 {{< li gkpgwfag trigger=loop speed=1.0 >}}
 :::
@@ -920,7 +812,7 @@ Freezing is one of the main defensive threat reactions across species
 
 -   Highly common in FND (compared to case controls, [Ludwig et al., 2018](http://dx.doi.org/10.1016/%20S2215-0366(18)30051-8)).
 
--   Does not consistently explain aetiology or onset.
+-   Does not explain presentation or timing of onset.
 
 -   Not always helpful to ask.
 
@@ -965,7 +857,7 @@ Our results show that the rate of childhood and adult stressful life events and 
 "13 studies that specifically ascertained that the participants had not had either severe life events or any subtype of maltreatment all found a proportion of patients with functional neurological disorder reporting no stressor."
 :::
 
-## Professional Beliefs {visibility="hidden"} {background-color="white"}
+## Professional Beliefs {background-color="white"} {visibility="hidden"}
 
 Taken from [Whitehead et al., 2012](https://core.ac.uk/download/pdf/81139313.pdf)
 
@@ -973,7 +865,7 @@ Taken from [Whitehead et al., 2012](https://core.ac.uk/download/pdf/81139313.pdf
 
 ------------------------------------------------------------------------
 
-## Trauma & FND Onset {visibility="hidden"} {background-color="white"}
+## Trauma & FND Onset {background-color="white"} {visibility="hidden"}
 
 Taken from [Keynejad, 2021](https://jnnp.bmj.com/content/90/7/813)
 
@@ -1031,7 +923,7 @@ Taken from [Anzellotti et al., 2020](https://www.frontiersin.org/articles/10.338
 
 ![](files/img/ICM.png)
 
-## Predictive Processing Errors {background-color="white"}
+## Predictive Processing Errors {background-color="white"} {visibility="hidden"}
 
 {{< youtube UrY69Y-OFZY >}}
 
@@ -1045,7 +937,7 @@ Taken from [Popkirov et al (2019)](https://onlinelibrary.wiley.com/doi/pdf/10.16
 
 ![](files/img/icm.jpg)
 
-## Emotional Processing Model {background-color="white"}
+## Emotional Processing Model {background-color="white"} {visibility="hidden"}
 
 Taken from: [Drane et al (2020).](https://www.asuemotionlab.com/wp-content/uploads/Pathophysiology_CNS_Spectrums_2020.pdf)
 
@@ -1059,7 +951,7 @@ Taken from: [Drane et al (2020).](https://www.asuemotionlab.com/wp-content/uploa
 :::
 :::
 
-## Emotional Processing Model {visibility="hidden"}
+## Emotional Processing Model {visibility="hidden"} {visibility="hidden"}
 
 -   Based on new insights (emotion processing and imaging).
 
@@ -1263,7 +1155,7 @@ Need to move away from services only being able to provide single/multi discipli
         Ttranscranial direct current stimulation (tDCS) 
 :::
 
-## What to Measure? {visibility="hidden"} {background-color="white"}
+## What to Measure? {background-color="white"} {visibility="hidden"}
 
 -   Not just about the core FND symptoms.
 
@@ -1277,7 +1169,7 @@ Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176
 
 ![](files/img/outcome.domains.jpg){alt="Taken from Nicholson (2020)" fig-align="center" width="600"}
 
-## Change Across Other Measures {visibility="hidden"} {background-color="white"}
+## Change Across Other Measures {background-color="white"} {visibility="hidden"}
 
 In all conditions treatment remains effective (approx *d* = .5)
 
@@ -1343,7 +1235,7 @@ In all conditions treatment remains effective (approx *d* = .5)
     -   Big questions about who should provide this.
 :::
 
-## Ways to Intervene
+## Ways to Intervene {visibility="hidden"}
 
 ![](files/img/ICM.example.1.png)
 
@@ -1369,13 +1261,13 @@ Case example.
 -   Only applies to Diane.
 :::
 
-## Ways to Intervene
+## Ways to Intervene {visibility="hidden"}
 
 ![](files/img/ICM.example.2.jpeg)
 
 ------------------------------------------------------------------------
 
-## What else can help
+## What else can help {visibility="hidden"}
 
 -   Good medical advice
 
@@ -1400,7 +1292,7 @@ Case example.
 -   Main concern is risk of falls.
 :::
 
-## Tips for Acute Management {visibility="hidden"} {background-color="white"}
+## Tips for Acute Management {background-color="white"} {visibility="hidden"}
 
 ::: {.callout-tip style="border: black; background: #f5f5f5 5px center/3em no-repeat;" collapse="true"}
 ## Tips
@@ -1473,7 +1365,7 @@ Case example.
 ![](files/img/fnd-hope-stigma.jpg)
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Resources {background-color="#57342d"}
+# Resources {background-color="#01364C"}
 :::
 
 ## Websites
@@ -1510,7 +1402,7 @@ Case example.
 
 [![](files/img/neuro-symptoms.png){width="200"}](http://neurosymptoms.org/)
 
-## Books
+## Books {visibility="hidden"}
 
 ### Patient Experiences Book
 
