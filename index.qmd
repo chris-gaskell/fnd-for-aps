@@ -75,13 +75,11 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   Potentially distressing videos :video_camera:
 
--   Not about emergency treatment response
-
--   I am learning too[^1] :student:
+-   I'm learning too[^1] :student:
 
 [^1]: Acknowledgements: to past colleagues Dr Mary King & Abi Methley for their prior support in developing these slides.
 
-## Contents {background-color="#01364C"}
+## Contents {background-color="#01364C"} {visibility="hidden"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -296,7 +294,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 -   Functional vs. Organic debates are outdated and inaccurate dualism.[^2]
 
--   Can a person be non-organic?[^3][^4]
+-   Can a person be non-organic?[^3]
 
 -   Software problem vs. hardware problem?
 :::
@@ -308,9 +306,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 [^2]: Not related to the behavioural notion of 'functional analysis'
 
-[^3]: See this video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) or the excellent review paper on 'functional' vs 'organic'
-
-[^4]: Also an excellent review on the use of the term [functional]{.underline} in medicine [(Smith, 2023)](https://doi.org/10.1136/bmj.p221)
+[^3]: See this video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) or the excellent [review paper](https://www.bmj.com/content/380/bmj.p221) on 'functional' vs 'organic'
 
 ::: notes
 -   (i.e., not relating to or derived from living matter).
@@ -322,9 +318,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 ::: columns
 ::: {.column width="50%"}
--   Neuroimaging in FND is an emerging area[^5].
+-   Neuroimaging in FND is an emerging area[^4].
 
--   Neurological differences shown in FND[^6].
+-   Neurological differences shown in FND[^5].
 
 -   FMRI studies show differences within people while experiencing vs volunteering tremor ([Voon et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/))
 
@@ -338,9 +334,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^5]: Figure taken from from Drane et al (2020)
+[^4]: Figure taken from from Drane et al (2020)
 
-[^6]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
+[^5]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
 
 ::: notes
 Compared to brain imaging in other neuropsychiatric disorders, FND research remains in its early stages (e.g., no samples \> 100 patients, few findings replicated, and even fewer studies tied to treatments).notes
@@ -387,9 +383,9 @@ This is everyone!
 ##  {background-color="white"}
 
 ::: callout-important
-## Important Notes around Diagnosis in FND {visibility="hidden"}
+## Important Notes around Diagnosis in FND
 
--   Based on positive clinical signs/symptoms[^7].
+-   Based on positive clinical signs/symptoms[^6].
 
 -   Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.
 
@@ -400,7 +396,7 @@ This is everyone!
 -   Following diagnosis, new symptoms are frequently (and wrongfully) dismissed.
 :::
 
-[^7]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
+[^6]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
 ::: notes
 -   For too often been a diagnosis of exclusion
@@ -656,7 +652,7 @@ Many terms have been used:
 
 ::: columns
 ::: {.column width="50%"}
-Much debate regarding preferred term[^8].
+Much debate regarding preferred term[^7].
 
 Communication has a significant impact on:
 
@@ -676,7 +672,7 @@ Be led by the individual
 :::
 :::
 
-[^8]:
+[^7]:
     ::: {.column width="50%"}
     (see [Stone et al., 2003](https://www.sciencedirect.com/science/article/pii/S1059131103000554%22), [Barron., 2019](https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf), FND Society., 2020, & [La France., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/).
     :::
@@ -715,7 +711,7 @@ Taken from recent [Loewenberger, 2021](https://onlinelibrary.wiley.com/doi/full/
 
 Do not mistake symptoms for factitious/malingering just because it doesn't fit with what your framework.
 
-FND is not Malingering! (see [Edwards et al., 2023](https://www.nature.com/articles/s41582-022-00765-z))
+FND is [not]{.underline} Malingering! (see [Edwards et al., 2023](https://www.nature.com/articles/s41582-022-00765-z))
 
 ::: notes
 -   Big take away message = real experience.
@@ -812,11 +808,11 @@ Freezing is one of the main defensive threat reactions across species
 
 -   Highly common in FND (compared to case controls, [Ludwig et al., 2018](http://dx.doi.org/10.1016/%20S2215-0366(18)30051-8)).
 
--   Does not explain presentation or timing of onset.
+-   Does not consistently explain aetiology or onset.
 
 -   Not always helpful to ask.
 
--   Idea of conversion may be relevant for some but unlikely all.
+-   Be careful with the notions of conversion. It may be relevant for some [but not all]{.underline}.
 
 ::: notes
 -   Trauma does not explain why one patient gets a seizure and another paralysis
@@ -881,7 +877,7 @@ In the top left quadrant you have a scenari whereby you might have a biological 
 \- even people with mild biological risk can develop it.
 :::
 
-## Bio-psycho-social Model {background-color="white"}
+## Biopsychosocial & 3 Ps {background-color="white"}
 
 Taken from Reuber 2009
 
@@ -897,15 +893,17 @@ Model proposed by [Reuber & Brown (2017)](https://www.seizure-journal.com/articl
 
 -   Single explanatory framework.
 
--   Symptoms = seizure scaffold + breakdown in inhibitory processes.
-
--   Brain response to sensory input = error (because of our expectations).
-
--   Seizure scaffold becomes activated (e.g., by arousal, emotions, thoughts).
-
--   Over time becomes a conditioned response (also learned helplessness + wilful submission).
-
 -   Helps to account for variation in psychological history.
+
+-   Symptoms = FND scaffold + breakdown in inhibitory processes.
+
+-   Brain response to sensory input **provides error**.
+
+-   Scaffold becomes activated (e.g., by arousal, emotions, thoughts).
+
+-   Over time this becomes a conditioned response.
+
+-   Wilful submission.
 
 ::: notes
 \- the ICM suggests that the observable and subjective elements of PNES result from the automatic execution of a learnt mental representation (broadly speaking, "idea") of seizures (the "seizure scaffold"), typically in the context of a high level inhibitory dysfunction resulting from chronic stress, arousal and other factors that compromise high level processing (Fig. 1).
@@ -923,7 +921,7 @@ Taken from [Anzellotti et al., 2020](https://www.frontiersin.org/articles/10.338
 
 ![](files/img/ICM.png)
 
-## Predictive Processing Errors {background-color="white"} {visibility="hidden"}
+## Predictive Processing Errors {background-color="white"}
 
 {{< youtube UrY69Y-OFZY >}}
 
@@ -1123,9 +1121,9 @@ Need to move away from services only being able to provide single/multi discipli
 -   For some people: If you spend time focusing on the smoke (core FND) but don't work on the underlying distress maintaining then treatment might not be effective and patients may relapse.
 :::
 
-## The Evidence Base?[^9]
+## The Evidence Base?[^8]
 
-[^9]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
+[^8]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
 
 -   **Psychology**
 
@@ -1159,11 +1157,11 @@ Need to move away from services only being able to provide single/multi discipli
 
 -   Not just about the core FND symptoms.
 
--   7+ outcome measures used per study (unpublished study).[^10]
+-   7+ outcome measures used per study (unpublished study).[^9]
 
 -   Core outcome battery and specific tools still lacking (for now).
 
-[^10]: Results being prepared for publication.
+[^9]: Results being prepared for publication.
 
 Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128)
 
@@ -1194,8 +1192,6 @@ In all conditions treatment remains effective (approx *d* = .5)
 -   Comes following a long journey.
 
 -   High expectations.
-
--   Medical gaslighting ([blog](https://cptsdfoundation.org/2020/06/08/medical-and-mental-health-gaslighting-and-iatrogenic-injury/) from PTSD Foundation.
 
 ::: notes
 -   Psychology referral for physical symptoms. People often really unsure. Some drop out. Some don't enter treatment.
