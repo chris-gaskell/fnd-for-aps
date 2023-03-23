@@ -11,13 +11,16 @@ $theme-nhs-blue: #005EB8;
 $theme-nhs-bright-blue: #0072CE;
 $theme-nhs-light-blue: #41B6E6;
 $theme-nhs-aqua-blue: #00A9CE;
+$theme-black: #000000;
+$theme-link: #ae8f00;
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?Playfair+Display&display=swap');
 
 $body-bg: $theme-white;
-$body-color: $theme-nhs-blue;
-$link-color: $theme-nhs-dark-blue;
+$body-color: $theme-black;
+$link-color: $theme-link;
+$link-hover: $theme-black;
 $presentation-heading-color: lighten($theme-nhs-dark-blue, 0%);
 
 $font-family-sans-serif: 'IBM Plex Serif', serif;

@@ -264,7 +264,6 @@ Classified by [neurosymptoms.org](https://www.neurosymptoms.org/en_GB/symptoms/)
 
 ## Historical Perspectives {background-color="white"} {visibility="hidden"}
 
-
 Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/article/pii/S2589986421000630)
 
 ![](files/img/historical.png){.img fig-align="center" height="1000"}
@@ -297,7 +296,7 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 -   Functional vs. Organic debates are outdated and inaccurate dualism.[^2]
 
--   Can a person be non-organic?[^3]
+-   Can a person be non-organic?[^3][^4]
 
 -   Software problem vs. hardware problem?
 :::
@@ -311,6 +310,8 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 [^3]: See this video by [John Stone](https://www.youtube.com/watch?v=ersm5f_0LVI&t=21s%22) or the excellent review paper on 'functional' vs 'organic'
 
+[^4]: Also an excellent review on the use of the term [functional]{.underline} in medicine [(Smith, 2023)](https://doi.org/10.1136/bmj.p221)
+
 ::: notes
 -   (i.e., not relating to or derived from living matter).
 
@@ -321,9 +322,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 
 ::: columns
 ::: {.column width="50%"}
--   Neuroimaging in FND is an emerging area[^4].
+-   Neuroimaging in FND is an emerging area[^5].
 
--   Neurological differences shown in FND[^5].
+-   Neurological differences shown in FND[^6].
 
 -   FMRI studies show differences within people while experiencing vs volunteering tremor ([Voon et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809033/))
 
@@ -337,9 +338,9 @@ Taken from [Raynor & Baslet (2021)](https://www.sciencedirect.com/science/articl
 :::
 :::
 
-[^4]: Figure taken from from Drane et al (2020)
+[^5]: Figure taken from from Drane et al (2020)
 
-[^5]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
+[^6]: See [Perez et al (2021)](https://www.sciencedirect.com/science/article/pii/S221315822100067X) for a review
 
 ::: notes
 Compared to brain imaging in other neuropsychiatric disorders, FND research remains in its early stages (e.g., no samples \> 100 patients, few findings replicated, and even fewer studies tied to treatments).notes
@@ -386,9 +387,9 @@ This is everyone!
 ##  {background-color="white"}
 
 ::: callout-important
-## Important Notes around Diagnosis in FND
+## Important Notes around Diagnosis in FND {visibility="hidden"}
 
--   Based on positive clinical signs/symptoms[^6].
+-   Based on positive clinical signs/symptoms[^7].
 
 -   Internal inconsistency (reversibility) and/or to a lesser extent incongruency with known patterns of structural neurological disease.
 
@@ -399,7 +400,7 @@ This is everyone!
 -   Following diagnosis, new symptoms are frequently (and wrongfully) dismissed.
 :::
 
-[^6]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
+[^7]: Helpful articles on positive symptoms include [Aybeck, 2022](%22https://drive.google.com/file/d/1YZF-9aHuYeLkgAErzHXx4F-I-rC_2lNq/view) & [Finkelstein et al (2021)](https://onlinelibrary.wiley.com/doi/full/10.1111/acem.14263)
 
 ::: notes
 -   For too often been a diagnosis of exclusion
@@ -655,7 +656,7 @@ Many terms have been used:
 
 ::: columns
 ::: {.column width="50%"}
-Much debate regarding preferred term[^7].
+Much debate regarding preferred term[^8].
 
 Communication has a significant impact on:
 
@@ -675,7 +676,7 @@ Be led by the individual
 :::
 :::
 
-[^7]:
+[^8]:
     ::: {.column width="50%"}
     (see [Stone et al., 2003](https://www.sciencedirect.com/science/article/pii/S1059131103000554%22), [Barron., 2019](https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf), FND Society., 2020, & [La France., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/).
     :::
@@ -714,8 +715,7 @@ Taken from recent [Loewenberger, 2021](https://onlinelibrary.wiley.com/doi/full/
 
 Do not mistake symptoms for factitious/malingering just because it doesn't fit with what your framework.
 
-FND is not Malingering! (see 
-[Edwards et al., 2023](https://www.nature.com/articles/s41582-022-00765-z))
+FND is not Malingering! (see [Edwards et al., 2023](https://www.nature.com/articles/s41582-022-00765-z))
 
 ::: notes
 -   Big take away message = real experience.
@@ -738,7 +738,7 @@ FND is not Malingering! (see
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Time for Coffee  {visibility="hidden"}
+# Time for Coffee {visibility="hidden"}
 
 {{< li gkpgwfag trigger=loop speed=1.0 >}}
 :::
@@ -927,7 +927,7 @@ Taken from [Anzellotti et al., 2020](https://www.frontiersin.org/articles/10.338
 
 {{< youtube UrY69Y-OFZY >}}
 
-## Integrated Cognitive Model {visibility="hidden"} {background-color="white"}
+## Integrated Cognitive Model {background-color="white"} {visibility="hidden"}
 
 Taken from [Reuber & Brown (2017)](https://www.seizure-journal.com/article/S1059-1311(16)30222-9/fulltext)
 
@@ -1123,9 +1123,9 @@ Need to move away from services only being able to provide single/multi discipli
 -   For some people: If you spend time focusing on the smoke (core FND) but don't work on the underlying distress maintaining then treatment might not be effective and patients may relapse.
 :::
 
-## The Evidence Base?[^8]
+## The Evidence Base?[^9]
 
-[^8]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
+[^9]: See [Beal et al (2022](https://pubmed.ncbi.nlm.nih.gov/35339813/)) for a review of the area.
 
 -   **Psychology**
 
@@ -1159,11 +1159,11 @@ Need to move away from services only being able to provide single/multi discipli
 
 -   Not just about the core FND symptoms.
 
--   7+ outcome measures used per study (unpublished study).[^9]
+-   7+ outcome measures used per study (unpublished study).[^10]
 
 -   Core outcome battery and specific tools still lacking (for now).
 
-[^9]: Results being prepared for publication.
+[^10]: Results being prepared for publication.
 
 Taken from [Nicholson (2020)](https://neuro.psychiatryonline.org/doi/abs/10.1176/appi.neuropsych.19060128)
 
@@ -1194,6 +1194,8 @@ In all conditions treatment remains effective (approx *d* = .5)
 -   Comes following a long journey.
 
 -   High expectations.
+
+-   Medical gaslighting ([blog](https://cptsdfoundation.org/2020/06/08/medical-and-mental-health-gaslighting-and-iatrogenic-injury/) from PTSD Foundation.
 
 ::: notes
 -   Psychology referral for physical symptoms. People often really unsure. Some drop out. Some don't enter treatment.
