@@ -1,1 +1,0 @@
-# fnd-for-paramedics
