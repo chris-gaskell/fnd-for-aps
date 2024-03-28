@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+.reveal countdown {
+  position: fixed;
+  bottom: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  user-select: none;
+}
+
+/* Style for links inside images */
+img a {
+    display: inline-block; /* Ensures the link covers the entire image */
+    width: 100%; /* Makes the link cover the image completely */
+    height: 100%; /* Makes the link cover the image completely */
+    background-color: transparent; /* Transparent background by default */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Style for link hover state */
+img a:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}

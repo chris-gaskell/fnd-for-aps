@@ -1,0 +1,13 @@
+name: shiny-demo
+title: shiny-demo
+username:
+account: chris-gaskell
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11510535
+bundleId: 8381505
+url: https://chris-gaskell.shinyapps.io/shiny-demo/
+when: 1710672363.63807
+lastSyncTime: 1710672363.63808
+asMultiple: FALSE
+asStatic: FALSE

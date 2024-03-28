@@ -1,0 +1,18 @@
+---
+from: markdown+emoji
+format:
+  revealjs:
+    preview-links: false
+    preload-iframes: true
+
+---
+
+## Slide Title {background-iframe="https://chris-gaskell.shinyapps.io/score-converter"}
+
+## Slide Title {background-iframe="my-iframe/index.html"}
+
+
+## title {background-iframe=“example.com}
+
+## title {background-iframe=“https://chris-gaskell.shinyapps.io/score-converter}
+
